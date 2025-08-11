@@ -1,0 +1,2752 @@
+[
+  {
+    "question": "Which of the following best describes the concept of supply chain network design decisions?",
+    "choices": [
+      "They include decisions related to the amount of inventory stored at each location.",
+      "They are focused only on transportation and logistics optimization.",
+      "They involve decisions about the location of manufacturing, storage, and transportation-related facilities.",
+      "They primarily deal with product development and market analysis."
+    ],
+    "correct": "They involve decisions about the location of manufacturing, storage, and transportation-related facilities.",
+    "explanation": "Supply chain network design decisions determine the location of facilities, the allocation of capacity, and the roles assigned to each facility. These decisions impact the entire supply chain and influence production, inventory, and transportation costs."
+  },
+  {
+    "question": "Why are facility location decisions critical to supply chain performance?",
+    "choices": [
+      "Because facilities can be easily moved without significant cost.",
+      "They have long-term impacts and are expensive to reverse.",
+      "Facilities play a minor role in affecting supply chain responsiveness.",
+      "They only affect transportation costs, not production."
+    ],
+    "correct": "They have long-term impacts and are expensive to reverse.",
+    "explanation": "Facility location decisions are significant because they impact the long-term performance of the supply chain. Moving or shutting down a facility is costly and affects logistics, responsiveness, and production efficiency."
+  },
+  {
+    "question": "Which of the following decisions determines the amount of flexibility a supply chain has in responding to demand changes?",
+    "choices": [
+      "Capacity allocation decisions",
+      "Facility location decisions",
+      "Role assignment of each facility",
+      "Transportation-related decisions"
+    ],
+    "correct": "Role assignment of each facility",
+    "explanation": "The role assigned to each facility in a supply chain determines the flexibility with which the supply chain can adjust to changes in demand. Facilities may focus on production, storage, or distribution, and these roles affect the supply chain's adaptability."
+  },
+  {
+    "question": "Which of the following is true about network design decisions?",
+    "choices": [
+      "They have no effect on inventory management.",
+      "They set constraints within which inventory, transportation, and information can be used to reduce costs or increase responsiveness.",
+      "They focus only on the operational aspects of the supply chain.",
+      "They are mostly concerned with marketing strategies."
+    ],
+    "correct": "They set constraints within which inventory, transportation, and information can be used to reduce costs or increase responsiveness.",
+    "explanation": "Network design decisions define the structure of the supply chain, setting constraints on how inventory, transportation, and information flows are managed to optimize performance and responsiveness."
+  },
+  {
+    "question": "What is the effect of high fixed costs on the location of facilities in a supply chain?",
+    "choices": [
+      "High fixed costs favor the creation of many small facilities to reduce overhead.",
+      "High fixed costs favor the consolidation of production in fewer, larger facilities.",
+      "High fixed costs have no impact on facility location.",
+      "High fixed costs encourage building facilities close to markets."
+    ],
+    "correct": "High fixed costs favor the consolidation of production in fewer, larger facilities.",
+    "explanation": "When fixed costs are high, it is more cost-effective to consolidate production in fewer large facilities, as this helps to spread the fixed costs across a larger volume of production, reducing per-unit costs."
+  },
+  {
+    "question": "Firms that focus on cost leadership generally locate their manufacturing facilities:",
+    "choices": [
+      "As close to the customer base as possible, regardless of cost.",
+      "In the lowest-cost location, often far from the markets they serve.",
+      "In multiple locations to improve delivery times.",
+      "Only in countries with low labor costs."
+    ],
+    "correct": "In the lowest-cost location, often far from the markets they serve.",
+    "explanation": "Firms pursuing cost leadership seek to minimize production costs, which often means locating manufacturing facilities in low-cost regions, even if they are far from their customer markets."
+  },
+  {
+    "question": "If production technology displays significant economies of scale, the most effective strategy would be to:",
+    "choices": [
+      "Build many small, local production facilities.",
+      "Consolidate production into fewer, larger facilities.",
+      "Establish production facilities in every major market.",
+      "Focus on outsourcing production."
+    ],
+    "correct": "Consolidate production into fewer, larger facilities.",
+    "explanation": "When economies of scale are present, consolidating production in fewer, larger facilities helps reduce per-unit production costs, making it more efficient than building many smaller facilities."
+  },
+  {
+    "question": "What effect do low fixed costs have on supply chain facility location decisions?",
+    "choices": [
+      "They encourage building fewer, larger facilities.",
+      "They lead to the consolidation of production.",
+      "They favor many local facilities to reduce transportation costs.",
+      "They have no impact on facility location decisions."
+    ],
+    "correct": "They favor many local facilities to reduce transportation costs.",
+    "explanation": "When fixed costs are low, it becomes feasible to build many smaller, local facilities, which helps reduce transportation costs by being closer to customers."
+  },
+  {
+    "question": "When high tariffs are imposed, companies tend to:",
+    "choices": [
+      "Increase the number of production locations.",
+      "Decrease the number of production facilities to centralize production.",
+      "Outsource production to avoid tariffs.",
+      "Focus on building facilities in low-tariff countries."
+    ],
+    "correct": "Increase the number of production locations.",
+    "explanation": "High tariffs encourage companies to establish local production facilities within the regions imposing tariffs to avoid paying import duties, leading to more distributed production."
+  },
+  {
+    "question": "When designing supply chain networks, why must companies consider fluctuations in exchange rates?",
+    "choices": [
+      "Exchange rate fluctuations do not affect supply chain decisions.",
+      "Exchange rate fluctuations only affect transportation costs.",
+      "Exchange rate fluctuations can impact production and sourcing costs across different countries.",
+      "Exchange rate fluctuations primarily affect the consumer market."
+    ],
+    "correct": "Exchange rate fluctuations can impact production and sourcing costs across different countries.",
+    "explanation": "Exchange rate fluctuations can affect the costs of sourcing and production in different countries, making it essential for companies to build flexibility into their supply chain to adjust to these changes."
+  },
+  {
+    "question": "What happens to inventory and facility costs as the number of facilities in a supply chain increases?",
+    "choices": [
+      "Both inventory and facility costs increase.",
+      "Inventory costs increase, while facility costs decrease.",
+      "Both inventory and facility costs decrease.",
+      "Inventory costs remain constant, while facility costs increase."
+    ],
+    "correct": "Both inventory and facility costs increase.",
+    "explanation": "As the number of facilities in a supply chain increases, the associated inventory and facility costs also rise due to higher storage requirements and the need to manage more locations."
+  },
+  {
+    "question": "Transportation costs tend to:",
+    "choices": [
+      "Increase as the number of facilities decreases.",
+      "Decrease as the number of facilities increases.",
+      "Increase as the number of facilities increases.",
+      "Remain constant regardless of the number of facilities."
+    ],
+    "correct": "Increase as the number of facilities increases.",
+    "explanation": "Transportation costs increase as the number of facilities rises because goods must be moved between more locations, leading to higher overall transportation expenses."
+  },
+  {
+    "question": "A firm may increase the number of facilities beyond the point that minimizes total logistics cost in order to:",
+    "choices": [
+      "Increase production efficiency.",
+      "Reduce facility management complexity.",
+      "Improve response time to customers.",
+      "Decrease transportation costs."
+    ],
+    "correct": "Improve response time to customers.",
+    "explanation": "Increasing the number of facilities beyond the point that minimizes total logistics cost can improve response times to customers by positioning inventory closer to the end consumer, even though it may increase costs."
+  },
+  {
+    "question": "What is the primary goal when designing a supply chain network?",
+    "choices": [
+      "Minimize transportation costs.",
+      "Maximize total profit while meeting customer demand and responsiveness.",
+      "Focus on minimizing inventory costs.",
+      "Focus on creating a flexible network that adapts to every market."
+    ],
+    "correct": "Maximize total profit while meeting customer demand and responsiveness.",
+    "explanation": "The primary goal of supply chain network design is to maximize profits by optimizing production, inventory, transportation, and location decisions to meet customer needs effectively and efficiently."
+  },
+  {
+    "question": "The role of a supply chain network is to:",
+    "choices": [
+      "Reduce the number of facilities to minimize costs.",
+      "Maximize profits while balancing demand and capacity across markets.",
+      "Eliminate production inefficiencies.",
+      "Increase the amount of inventory at each facility."
+    ],
+    "correct": "Maximize profits while balancing demand and capacity across markets.",
+    "explanation": "Supply chain network design aims to maximize total profits by balancing capacity, demand, and cost factors, ensuring that the network is aligned with the company's strategic objectives."
+  },
+  {
+    "question": "Which of the following best describes the decision classified as 'facility role' in supply chain network design?",
+    "choices": [
+      "Deciding the location of manufacturing facilities",
+      "Determining the production capacity of each facility",
+      "Assigning what processes are performed at each facility",
+      "Allocating markets to specific facilities"
+    ],
+    "correct": "Assigning what processes are performed at each facility",
+    "explanation": "Facility role decisions are about assigning specific processes, such as production or storage, to each facility in the supply chain."
+  },
+  {
+    "question": "What is the primary concern of capacity allocation decisions in supply chain network design?",
+    "choices": [
+      "Determining the location of suppliers",
+      "Deciding how much capacity each facility should have",
+      "Determining the amount of flexibility in the supply chain",
+      "Deciding which markets each facility should serve"
+    ],
+    "correct": "Deciding how much capacity each facility should have",
+    "explanation": "Capacity allocation decisions focus on determining how much production or storage capacity should be allocated to each facility in the supply chain."
+  },
+  {
+    "question": "Which of the following decisions is classified under 'market and supply allocation' in network design?",
+    "choices": [
+      "Determining what processes are performed at each facility",
+      "Deciding which markets each facility should serve and which supply sources should feed each facility",
+      "Selecting transportation providers for each facility",
+      "Determining the pricing strategy for each market"
+    ],
+    "correct": "Deciding which markets each facility should serve and which supply sources should feed each facility",
+    "explanation": "Market and supply allocation decisions involve assigning specific markets to facilities and deciding which supply sources should supply those facilities."
+  },
+  {
+    "question": "What is a potential consequence of allocating too much capacity to a supply chain facility?",
+    "choices": [
+      "Poor utilization and higher costs",
+      "Increased responsiveness to demand",
+      "Improved production efficiency",
+      "Lower transportation costs"
+    ],
+    "correct": "Poor utilization and higher costs",
+    "explanation": "Allocating too much capacity can result in underutilized resources, leading to higher costs without improving efficiency."
+  },
+  {
+    "question": "What could result from allocating too little capacity to a facility in a supply chain?",
+    "choices": [
+      "Excess inventory",
+      "Improved cost-efficiency",
+      "Poor responsiveness or high costs due to reliance on distant facilities",
+      "Increased transportation efficiency"
+    ],
+    "correct": "Poor responsiveness or high costs due to reliance on distant facilities",
+    "explanation": "If too little capacity is allocated to a facility, it may not be able to meet demand, leading to delays or high costs if products have to be supplied from other, more distant facilities."
+  },
+  {
+    "question": "Why should the allocation of supply sources and markets to facilities be regularly reconsidered?",
+    "choices": [
+      "To optimize product customization",
+      "To increase facility costs",
+      "To adjust for changing market conditions or plant capacities",
+      "To reduce transportation costs"
+    ],
+    "correct": "To adjust for changing market conditions or plant capacities",
+    "explanation": "Regularly reconsidering the allocation of supply sources and markets ensures that the network adapts to shifts in demand, supply, or facility capabilities."
+  },
+  {
+    "question": "What is the impact of network design decisions on inventory, transportation, and information flows?",
+    "choices": [
+      "Network design decisions only affect transportation costs.",
+      "They set constraints that impact how inventory, transportation, and information are used to reduce costs or increase responsiveness.",
+      "Network design decisions only affect inventory levels.",
+      "They focus only on production-related activities."
+    ],
+    "correct": "They set constraints that impact how inventory, transportation, and information are used to reduce costs or increase responsiveness.",
+    "explanation": "Network design decisions determine the configuration of the supply chain, setting limits on how inventory, transportation, and information can be optimized to achieve cost reductions or increased responsiveness."
+  },
+  {
+    "question": "Customer order entry in a supply chain is defined as:",
+    "choices": [
+      "The customer placing an order and the retailer allocating product to fulfill the order",
+      "The customer receiving their ordered product",
+      "The manufacturer shipping the order to the customer",
+      "The retailer collecting payment from the customer"
+    ],
+    "correct": "The customer placing an order and the retailer allocating product to fulfill the order",
+    "explanation": "Customer order entry refers to the process where a customer places an order, and the retailer allocates the product to fulfill that order."
+  },
+  {
+    "question": "What is the primary focus of firms pursuing cost leadership in supply chain network design?",
+    "choices": [
+      "Minimizing transportation times",
+      "Locating facilities in regions with the lowest costs",
+      "Increasing the number of facilities to improve customer service",
+      "Locating facilities as close to customers as possible"
+    ],
+    "correct": "Locating facilities in regions with the lowest costs",
+    "explanation": "Firms that pursue cost leadership focus on finding the lowest-cost locations for their manufacturing facilities, even if it means locating far from customer markets."
+  },
+  {
+    "question": "Firms that focus on responsiveness in supply chain design tend to:",
+    "choices": [
+      "Consolidate production in low-cost regions",
+      "Locate facilities close to the markets they serve",
+      "Minimize the number of facilities to reduce costs",
+      "Focus primarily on inventory management"
+    ],
+    "correct": "Locate facilities close to the markets they serve",
+    "explanation": "Firms that emphasize responsiveness locate their facilities near their customers to reduce delivery times and better meet demand."
+  },
+  {
+    "question": "What is the role of an offshore facility in supply chain management?",
+    "choices": [
+      "To serve as a low-cost supply source for markets located outside the country",
+      "To develop new products for the entire network",
+      "To customize products for specific markets",
+      "To focus on product innovation"
+    ],
+    "correct": "To serve as a low-cost supply source for markets located outside the country",
+    "explanation": "Offshore facilities are typically focused on producing goods at the lowest cost, primarily for markets outside the country where the facility is located."
+  },
+  {
+    "question": "A server facility in a supply chain is primarily used to:",
+    "choices": [
+      "Act as a low-cost supply source for international markets",
+      "Supply the local market in response to tariff barriers or high logistics costs",
+      "Focus on product development",
+      "Serve as a distribution center for multiple regions"
+    ],
+    "correct": "Supply the local market in response to tariff barriers or high logistics costs",
+    "explanation": "Server facilities are built to supply specific markets, often to avoid tariffs or high logistics costs associated with supplying those markets from a distant location."
+  },
+  {
+    "question": "Which type of facility is focused on obtaining access to knowledge or skills within a certain region?",
+    "choices": [
+      "Offshore facility",
+      "Source facility",
+      "Outpost facility",
+      "Server facility"
+    ],
+    "correct": "Outpost facility",
+    "explanation": "Outpost facilities are located in regions where specific knowledge or skills are concentrated, allowing the firm to access these resources for product or process development."
+  },
+  {
+    "question": "A contributor facility is a facility that:",
+    "choices": [
+      "Primarily focuses on mass production for international markets",
+      "Supplies the local market and is responsible for product customization, process improvements, or product development",
+      "Only serves as a storage and distribution hub",
+      "Focuses on providing low-cost production for distant markets"
+    ],
+    "correct": "Supplies the local market and is responsible for product customization, process improvements, or product development",
+    "explanation": "Contributor facilities not only supply local markets but also take on responsibilities such as product customization and process improvements."
+  },
+  {
+    "question": "Which type of facility focuses on creating new products, processes, and technologies for the entire network?",
+    "choices": [
+      "Server facility",
+      "Offshore facility",
+      "Source facility",
+      "Lead facility"
+    ],
+    "correct": "Lead facility",
+    "explanation": "Lead facilities focus on creating new products, processes, and technologies that can be used across the entire supply chain network."
+  },
+  {
+    "question": "When production technology is very inflexible and product requirements vary from one country to another, a firm must:",
+    "choices": [
+      "Use a single, centralized production facility",
+      "Set up local facilities to serve each country",
+      "Consolidate production in low-cost regions",
+      "Focus on developing flexible production systems"
+    ],
+    "correct": "Set up local facilities to serve each country",
+    "explanation": "When production technology is inflexible and product requirements differ across markets, it is necessary to establish local facilities to meet each country’s specific needs."
+  },
+  {
+    "question": "Duties paid when products or equipment are moved across international, state, or city boundaries are known as:",
+    "choices": [
+      "Quotas",
+      "Taxes",
+      "Tariffs",
+      "Levies"
+    ],
+    "correct": "Tariffs",
+    "explanation": "Tariffs are duties imposed when products or equipment are moved across international borders, often impacting the cost of goods sold in different markets."
+  },
+  {
+    "question": "What is one potential solution when a country has very high tariffs on imported goods?",
+    "choices": [
+      "Stop serving the local market entirely",
+      "Set up manufacturing plants within the country",
+      "Focus on exporting goods to other countries",
+      "Increase inventory levels to offset costs"
+    ],
+    "correct": "Set up manufacturing plants within the country",
+    "explanation": "To avoid high tariffs, companies may choose to establish local manufacturing facilities within the country, allowing them to serve the local market without incurring heavy import duties."
+  },
+  {
+    "question": "What is the benefit of building overcapacity into a supply chain network?",
+    "choices": [
+      "It increases transportation efficiency.",
+      "It allows firms to shift production based on current exchange rates.",
+      "It reduces inventory costs.",
+      "It minimizes facility costs."
+    ],
+    "correct": "It allows firms to shift production based on current exchange rates.",
+    "explanation": "Building overcapacity and flexibility into a supply chain network enables firms to adjust production levels at different facilities based on factors such as exchange rates and demand fluctuations."
+  },
+  {
+    "question": "Total logistics costs in a supply chain are composed of:",
+    "choices": [
+      "Transportation, inventory, and facility costs",
+      "Marketing and sales costs",
+      "Production and labor costs",
+      "Research and development costs"
+    ],
+    "correct": "Transportation, inventory, and facility costs",
+    "explanation": "Total logistics costs are calculated by summing all costs associated with inventory, transportation, and the facilities used in the supply chain to deliver products to customers."
+  },
+  {
+    "question": "The facilities in a supply chain network must:",
+    "choices": [
+      "Always exceed the number needed to minimize logistics costs",
+      "At least equal the number that minimizes total logistics cost",
+      "Be located as far from customers as possible",
+      "Focus solely on production capabilities"
+    ],
+    "correct": "At least equal the number that minimizes total logistics cost",
+    "explanation": "The number of facilities in a supply chain network should meet the threshold that allows for optimal logistics cost efficiency, ensuring that the network can adequately serve customer demand without excess costs."
+  },
+  {
+    "question": "A company pursuing a cost leadership strategy may:",
+    "choices": [
+      "Locate facilities as close to customers as possible",
+      "Develop many specialized production facilities",
+      "Focus on finding the lowest-cost location for manufacturing, even if far from markets",
+      "Increase the number of facilities to enhance responsiveness"
+    ],
+    "correct": "Focus on finding the lowest-cost location for manufacturing, even if far from markets",
+    "explanation": "Companies pursuing cost leadership aim to minimize production costs, often prioritizing low-cost manufacturing locations regardless of their distance from customer markets."
+  },
+  {
+    "question": "Which inventory type refers to the goods available for sale and raw materials used to produce goods?",
+    "choices": [
+      "Work in process (WIP)",
+      "Finished goods",
+      "Raw materials",
+      "Inventory"
+    ],
+    "correct": "Inventory",
+    "explanation": "Inventory encompasses all goods available for sale and raw materials that are used in the production of finished goods, essential for meeting customer demand."
+  },
+  {
+    "question": "What is the primary purpose of maintaining safety stock in inventory management?",
+    "choices": [
+      "To increase overall inventory costs",
+      "To protect against unexpected demand fluctuations",
+      "To maximize storage space",
+      "To reduce lead times"
+    ],
+    "correct": "To protect against unexpected demand fluctuations",
+    "explanation": "Safety stock serves as a buffer against unexpected increases in demand or supply chain disruptions, ensuring that customer demand can still be met without delays."
+  },
+  {
+    "question": "When demand unexpectedly spikes due to a promotional campaign, this is referred to as:",
+    "choices": [
+      "Seasonal demand",
+      "Anticipation inventory",
+      "Peak demand",
+      "Chase demand"
+    ],
+    "correct": "Peak demand",
+    "explanation": "Peak demand occurs when there is a sudden increase in demand due to specific events, such as promotional campaigns or product launches."
+  },
+  {
+    "question": "Which of the following strategies involves producing products to customer specifications after an order has been received?",
+    "choices": [
+      "Make-to-Order",
+      "Make-to-Stock",
+      "Assemble-to-Order",
+      "Engineer-to-Order"
+    ],
+    "correct": "Make-to-Order",
+    "explanation": "Make-to-Order is a production strategy where products are made according to specific customer orders, allowing for customization based on individual requirements."
+  },
+  {
+    "question": "The term 'bullwhip effect' in supply chain management refers to:",
+    "choices": [
+      "A smooth and steady flow of inventory",
+      "Fluctuations in demand that cause increased distortion as they move up the supply chain",
+      "The reduction of inventory costs through effective management",
+      "A strategy to enhance communication between suppliers and customers"
+    ],
+    "correct": "Fluctuations in demand that cause increased distortion as they move up the supply chain",
+    "explanation": "The bullwhip effect describes how small changes in consumer demand can lead to larger fluctuations in demand further up the supply chain, affecting production and inventory management."
+  },
+  {
+    "question": "The primary goal of just-in-time (JIT) inventory management is to:",
+    "choices": [
+      "Increase inventory levels to prevent stockouts",
+      "Minimize waste and reduce inventory costs",
+      "Maximize production output at all times",
+      "Focus solely on supplier relationships"
+    ],
+    "correct": "Minimize waste and reduce inventory costs",
+    "explanation": "JIT aims to streamline production and reduce waste by maintaining minimal inventory levels and ensuring that materials arrive just as they are needed in the production process."
+  },
+  {
+    "question": "Which of the following is a characteristic of a push system?",
+    "choices": [
+      "Production is based on actual customer demand.",
+      "Materials are moved based on forecasts and predetermined schedules.",
+      "It requires high levels of inventory to function effectively.",
+      "It is more flexible than a pull system."
+    ],
+    "correct": "Materials are moved based on forecasts and predetermined schedules.",
+    "explanation": "A push system operates by producing goods based on forecasted demand rather than actual customer orders, leading to potential overproduction and excess inventory."
+  },
+  {
+    "question": "What type of forecasting method is most appropriate when historical data is unavailable?",
+    "choices": [
+      "Quantitative methods",
+      "Qualitative methods",
+      "Regression analysis",
+      "Time series analysis"
+    ],
+    "correct": "Qualitative methods",
+    "explanation": "Qualitative forecasting methods rely on subjective judgment and opinions, making them suitable for new products or situations where historical data is lacking."
+  },
+  {
+    "question": "The purpose of an Economic Order Quantity (EOQ) model is to:",
+    "choices": [
+      "Maximize production capacity",
+      "Minimize the total costs of ordering and holding inventory",
+      "Determine the optimal price point for products",
+      "Increase inventory levels"
+    ],
+    "correct": "Minimize the total costs of ordering and holding inventory",
+    "explanation": "The EOQ model is designed to help firms find the optimal order quantity that minimizes the total costs associated with ordering and holding inventory."
+  },
+  {
+    "question": "A firm's production strategy that involves using various statistical tools for analyzing process capabilities is known as:",
+    "choices": [
+      "Quality Function Deployment",
+      "Statistical Process Control (SPC)",
+      "Just-in-Time (JIT)",
+      "Lean Management"
+    ],
+    "correct": "Statistical Process Control (SPC)",
+    "explanation": "Statistical Process Control (SPC) involves using statistical tools to monitor and analyze process performance and capabilities, ensuring that the process remains within acceptable limits."
+  },
+  {
+    "question": "Which concept refers to the ability to produce a variety of products on the same equipment?",
+    "choices": [
+      "Economies of scale",
+      "Economies of scope",
+      "Cost leadership",
+      "Facility layout"
+    ],
+    "correct": "Economies of scope",
+    "explanation": "Economies of scope allow companies to reduce costs by producing a variety of products using the same equipment, thus leveraging fixed costs across multiple products."
+  },
+  {
+    "question": "The planning horizon for a Master Production Schedule (MPS) is typically:",
+    "choices": [
+      "1-2 weeks",
+      "12-16 weeks",
+      "6-18 months",
+      "5-10 years"
+    ],
+    "correct": "12-16 weeks",
+    "explanation": "The planning horizon for an MPS usually spans 12-16 weeks, allowing for detailed scheduling of production activities and alignment with demand forecasts."
+  },
+  {
+    "question": "Which of the following is an example of a qualitative forecasting method?",
+    "choices": [
+      "Time series analysis",
+      "Panel of experts (Delphi technique)",
+      "Regression analysis",
+      "Moving averages"
+    ],
+    "correct": "Panel of experts (Delphi technique)",
+    "explanation": "The Panel of Experts (Delphi technique) is a qualitative forecasting method that gathers insights and opinions from knowledgeable individuals to make predictions in situations lacking historical data."
+  },
+  {
+    "question": "In supply chain management, what does the term \"capacity utilization\" refer to?",
+    "choices": [
+      "The ratio of actual output to design capacity",
+      "The total production capability of a facility",
+      "The maximum number of facilities in a network",
+      "The ability to produce goods quickly"
+    ],
+    "correct": "The ratio of actual output to design capacity",
+    "explanation": "Capacity utilization measures how much of the total available capacity of a facility is being used, calculated as the ratio of actual output to design capacity."
+  },
+  {
+    "question": "A firm adopting a lag capacity strategy typically does so:",
+    "choices": [
+      "Before demand has increased",
+      "After demand has increased and is running at full capacity",
+      "Without considering market conditions",
+      "To maximize production efficiency"
+    ],
+    "correct": "After demand has increased and is running at full capacity",
+    "explanation": "A lag capacity strategy involves waiting until the demand has been established before increasing capacity, ensuring that the firm does not overcommit resources."
+  },
+  {
+    "question": "What is a primary goal of the theory of constraints (TOC)?",
+    "choices": [
+      "To minimize costs across all operations",
+      "To identify and manage bottlenecks in a production process",
+      "To increase production volume without limits",
+      "To focus solely on supplier relationships"
+    ],
+    "correct": "To identify and manage bottlenecks in a production process",
+    "explanation": "TOC aims to pinpoint the most limiting factor (bottleneck) in a system and improve that constraint to enhance overall throughput and efficiency."
+  },
+  {
+    "question": "In the context of supply chain management, which of the following best describes 'process selection'?",
+    "choices": [
+      "Choosing the type of suppliers for raw materials",
+      "Determining the most suitable method for producing a product",
+      "Identifying market demand for products",
+      "Setting the price points for goods"
+    ],
+    "correct": "Determining the most suitable method for producing a product",
+    "explanation": "Process selection involves making strategic decisions about the production methods that will be used to create goods or services, impacting efficiency and costs."
+  },
+  {
+    "question": "What is a characteristic of a continuous flow process?",
+    "choices": [
+      "Produces a wide variety of products in low volume",
+      "High volume, no variation in product",
+      "Utilizes specialized machinery for customized products",
+      "Allows frequent changeovers between products"
+    ],
+    "correct": "High volume, no variation in product",
+    "explanation": "Continuous flow processes are designed for high-volume production of standardized products without variations, typically found in industries like oil refining."
+  },
+  {
+    "question": "Which inventory type is often described as 'work in process' (WIP)?",
+    "choices": [
+      "Finished goods ready for sale",
+      "Raw materials obtained for production",
+      "Partially finished products undergoing manufacturing",
+      "Goods that are stored for future use"
+    ],
+    "correct": "Partially finished products undergoing manufacturing",
+    "explanation": "WIP refers to items that are in the production process but are not yet complete, encompassing components and subassemblies that are being worked on."
+  },
+  {
+    "question": "In supply chain terms, 'lead time' refers to:",
+    "choices": [
+      "The total time taken to produce goods",
+      "The time from order placement to order fulfillment",
+      "The time taken to receive raw materials",
+      "The duration of production runs"
+    ],
+    "correct": "The time from order placement to order fulfillment",
+    "explanation": "Lead time encompasses all the time required from when an order is placed until it is completed and delivered to the customer."
+  },
+  {
+    "question": "What is 'aggregate planning' in the context of supply chain management?",
+    "choices": [
+      "A method for detailed production scheduling",
+      "A strategy for managing long-term supply chain decisions",
+      "An input to the Master Production Schedule (MPS)",
+      "A technique for analyzing customer demand patterns"
+    ],
+    "correct": "An input to the Master Production Schedule (MPS)",
+    "explanation": "Aggregate planning combines individual end items into groups for planning purposes and serves as a foundation for developing the MPS."
+  },
+  {
+    "question": "The term 'just-in-time' (JIT) in supply chain management signifies:",
+    "choices": [
+      "Keeping high inventory levels to meet demand",
+      "Producing items only as they are needed in the production process",
+      "Purchasing materials in bulk for discounts",
+      "Focusing on long-term production schedules"
+    ],
+    "correct": "Producing items only as they are needed in the production process",
+    "explanation": "JIT emphasizes reducing waste and inventory by aligning production closely with actual demand, ensuring materials arrive just as they are needed."
+  },
+  {
+    "question": "Which of the following forecasting methods is based on past numerical data?",
+    "choices": [
+      "Qualitative methods",
+      "Time series analysis",
+      "Delphi technique",
+      "Test markets"
+    ],
+    "correct": "Time series analysis",
+    "explanation": "Time series analysis uses historical data to predict future trends and is effective when there is sufficient past numerical information available."
+  },
+  {
+    "question": "Which of the following is a major advantage of using a dual card kanban system over a single card system?",
+    "choices": [
+      "It simplifies the production process.",
+      "It reduces overall production costs.",
+      "It provides greater control over inventory and production processes.",
+      "It requires less documentation and planning."
+    ],
+    "correct": "It provides greater control over inventory and production processes.",
+    "explanation": "The dual card kanban system connects both production and withdrawal of inventory to actual needs, enhancing control over the supply chain."
+  },
+  {
+    "question": "A significant characteristic of 'lean' strategies is:",
+    "choices": [
+      "Minimizing waste while maximizing productivity",
+      "Increasing production capacity at all costs",
+      "Expanding the number of facilities",
+      "Prioritizing customer service over cost efficiency"
+    ],
+    "correct": "Minimizing waste while maximizing productivity",
+    "explanation": "Lean strategies focus on reducing waste and improving efficiency in production processes, ultimately enhancing overall productivity."
+  },
+  {
+    "question": "Which method is utilized to gather information from various experts to develop a forecast?",
+    "choices": [
+      "Time series analysis",
+      "Survey method",
+      "Build-up method",
+      "Panel of experts (Delphi technique)"
+    ],
+    "correct": "Panel of experts (Delphi technique)",
+    "explanation": "The Delphi technique involves soliciting opinions from a panel of knowledgeable individuals to develop informed forecasts, particularly useful when historical data is lacking."
+  },
+  {
+    "question": "What is the primary goal of a vendor-managed inventory (VMI) system?",
+    "choices": [
+      "To increase inventory holding costs",
+      "To allow the supplier to manage inventory levels at the customer&#039;s site",
+      "To reduce the need for suppliers",
+      "To enhance transportation efficiency"
+    ],
+    "correct": "To allow the supplier to manage inventory levels at the customer&#039;s site",
+    "explanation": "VMI enables suppliers to monitor and manage inventory levels directly at the customer's facility, improving efficiency and reducing stockouts."
+  },
+  {
+    "question": "What is the objective of the 'break-even analysis'?",
+    "choices": [
+      "To determine the production capacity required to meet demand",
+      "To calculate the point at which total revenue equals total costs",
+      "To analyze inventory turnover rates",
+      "To establish pricing strategies"
+    ],
+    "correct": "To calculate the point at which total revenue equals total costs",
+    "explanation": "Break-even analysis identifies the volume of sales needed to cover total costs, indicating when a company starts to make a profit."
+  },
+  {
+    "question": "The 'ABC analysis' in inventory management is used to:",
+    "choices": [
+      "Classify inventory based on cost and usage",
+      "Track raw materials only",
+      "Measure supplier performance",
+      "Analyze customer satisfaction"
+    ],
+    "correct": "Classify inventory based on cost and usage",
+    "explanation": "ABC analysis categorizes inventory items into three classes (A, B, C) based on their importance, cost, and frequency of use, allowing for better inventory control."
+  },
+  {
+    "question": "Which of the following describes a 'push strategy' in supply chain management?",
+    "choices": [
+      "Production is based on actual customer demand.",
+      "Products are produced based on forecasted demand.",
+      "Inventory levels are kept low.",
+      "Orders are fulfilled as they are received."
+    ],
+    "correct": "Products are produced based on forecasted demand.",
+    "explanation": "A push strategy involves producing goods based on anticipated demand, potentially leading to excess inventory if forecasts are inaccurate."
+  },
+  {
+    "question": "A process characterized by the production of a variety of standardized products at relatively low volumes is known as:",
+    "choices": [
+      "Continuous flow",
+      "Job shop",
+      "Batch flow",
+      "Assembly line"
+    ],
+    "correct": "Batch flow",
+    "explanation": "Batch flow processes produce a limited variety of products in groups, balancing efficiency and customization based on demand."
+  },
+  {
+    "question": "What is the function of 'cross-docking' in a supply chain?",
+    "choices": [
+      "To store products for extended periods",
+      "To combine shipments from different suppliers",
+      "To reconfigure shipments without long-term storage",
+      "To increase inventory holding"
+    ],
+    "correct": "To reconfigure shipments without long-term storage",
+    "explanation": "Cross-docking involves unloading products from incoming shipments and directly loading them onto outbound trucks with minimal storage time, enhancing efficiency in distribution."
+  },
+  {
+    "question": "What does 'variable costs' in a business context refer to?",
+    "choices": [
+      "Costs that remain constant regardless of production volume",
+      "Costs that change with the level of production or sales",
+      "Fixed costs associated with production facilities",
+      "Costs that can only be calculated annually"
+    ],
+    "correct": "Costs that change with the level of production or sales",
+    "explanation": "Variable costs fluctuate based on the level of production, increasing or decreasing as production volume changes."
+  },
+  {
+    "question": "The concept of 'economies of scope' refers to:",
+    "choices": [
+      "Reducing costs by producing more of the same product",
+      "Saving costs through the production of a variety of products using the same resources",
+      "Achieving a larger market share through price reductions",
+      "Increasing production capacity without increasing fixed costs"
+    ],
+    "correct": "Saving costs through the production of a variety of products using the same resources",
+    "explanation": "Economies of scope involve lowering costs by producing multiple products using shared resources, allowing firms to spread fixed costs across a wider range of products."
+  },
+  {
+    "question": "What is the primary focus of a Master Production Schedule (MPS)?",
+    "choices": [
+      "To determine the overall business strategy",
+      "To outline inventory management practices",
+      "To provide a detailed schedule for production activities",
+      "To analyze customer market trends"
+    ],
+    "correct": "To provide a detailed schedule for production activities",
+    "explanation": "The MPS outlines specific products and quantities to be produced within a given timeframe, aligning production activities with demand forecasts."
+  },
+  {
+    "question": "What is a key characteristic of a 'job shop' process?",
+    "choices": [
+      "High volume of standardized products",
+      "Low volume of customized products",
+      "Continuous flow of raw materials",
+      "High efficiency and low flexibility"
+    ],
+    "correct": "Low volume of customized products",
+    "explanation": "A job shop process is designed for low volume production of customized products, allowing for significant flexibility in manufacturing."
+  },
+  {
+    "question": "Which of the following describes the term 'takt time'?",
+    "choices": [
+      "The maximum time allowed to produce a product to meet customer demand",
+      "The total time required to complete an entire production run",
+      "The average time taken to fulfill customer orders",
+      "The time taken to restock inventory"
+    ],
+    "correct": "The maximum time allowed to produce a product to meet customer demand",
+    "explanation": "Takt time is the calculated time available per unit to meet customer demand, guiding production rates and scheduling."
+  },
+  {
+    "question": "In supply chain management, what does 'reverse logistics' involve?",
+    "choices": [
+      "The process of moving products from suppliers to customers",
+      "Returning products from customers back to manufacturers or suppliers",
+      "The distribution of goods to retail locations",
+      "The management of raw materials for production"
+    ],
+    "correct": "Returning products from customers back to manufacturers or suppliers",
+    "explanation": "Reverse logistics encompasses the processes involved in returning products for repair, recycling, or disposal, focusing on the upstream flow of goods."
+  },
+  {
+    "question": "Which of the following best defines the 'service triangle' in operations management?",
+    "choices": [
+      "The interaction between suppliers, manufacturers, and customers",
+      "The relationship between customers, systems, and employees providing service",
+      "The balance between cost, quality, and delivery in service",
+      "The structure of service organizations based on geographic regions"
+    ],
+    "correct": "The relationship between customers, systems, and employees providing service",
+    "explanation": "The service triangle highlights the essential relationships and interactions among customers, the systems used to deliver services, and the employees involved."
+  },
+  {
+    "question": "The primary objective of quality function deployment (QFD) is to:",
+    "choices": [
+      "Increase production speed",
+      "Translate customer needs into specific technical requirements",
+      "Reduce inventory holding costs",
+      "Streamline supply chain operations"
+    ],
+    "correct": "Translate customer needs into specific technical requirements",
+    "explanation": "QFD is used to ensure that customer requirements are effectively integrated into product design and development processes."
+  },
+  {
+    "question": "What does the term 'lead time' encompass in supply chain management?",
+    "choices": [
+      "The time taken for inventory to arrive at the warehouse",
+      "The total time from placing an order to receiving the product",
+      "The duration for production setup",
+      "The waiting time between production processes"
+    ],
+    "correct": "The total time from placing an order to receiving the product",
+    "explanation": "Lead time includes all the phases involved from when an order is placed until the product is delivered to the customer."
+  },
+  {
+    "question": "The purpose of conducting a SWOT analysis is to:",
+    "choices": [
+      "Assess the effectiveness of a production process",
+      "Identify the strengths, weaknesses, opportunities, and threats of an organization",
+      "Analyze customer satisfaction levels",
+      "Forecast future sales performance"
+    ],
+    "correct": "Identify the strengths, weaknesses, opportunities, and threats of an organization",
+    "explanation": "SWOT analysis is a strategic planning tool used to evaluate an organization’s internal and external factors, aiding in decision-making and strategy formulation."
+  },
+  {
+    "question": "What does 'cycle time' refer to in a production context?",
+    "choices": [
+      "The time taken to produce one unit of product",
+      "The time between the start and end of a production process",
+      "The average time required for an entire batch production",
+      "The duration for maintenance and repairs"
+    ],
+    "correct": "The time between the start and end of a production process",
+    "explanation": "Cycle time measures the total time required to complete one cycle of the production process, from initiation to final output."
+  },
+  {
+    "question": "Which of the following best describes a 'pull system' in supply chain management?",
+    "choices": [
+      "Production based on forecasted demand",
+      "Inventory levels are maintained at maximum capacity",
+      "Materials are moved based on actual demand and needs",
+      "Orders are fulfilled as they are received without prior planning"
+    ],
+    "correct": "Materials are moved based on actual demand and needs",
+    "explanation": "A pull system relies on real-time demand to trigger production and inventory replenishment, minimizing waste and excess inventory."
+  },
+  {
+    "question": "n the context of supply chains, 'agile strategies' focus primarily on:",
+    "choices": [
+      "Cost reduction and efficiency",
+      "Flexibility and responsiveness to customer demands",
+      "Long-term planning and resource allocation",
+      "Fixed production schedules"
+    ],
+    "correct": "Flexibility and responsiveness to customer demands",
+    "explanation": "Agile strategies prioritize being responsive and adaptable to changing customer needs, making them suitable for markets with high uncertainty and rapid changes."
+  },
+  {
+    "question": "What is a major advantage of using electronic data interchange (EDI) in supply chain operations?",
+    "choices": [
+      "It increases the need for manual data entry",
+      "It streamlines communication and reduces processing times",
+      "It complicates the order fulfillment process",
+      "It eliminates the need for suppliers"
+    ],
+    "correct": "It streamlines communication and reduces processing times",
+    "explanation": "EDI enables automated communication between trading partners, reducing paperwork, speeding up transactions, and enhancing overall efficiency in the supply chain."
+  },
+  {
+    "question": "Which of the following describes the concept of 'total cost of ownership' (TCO)?",
+    "choices": [
+      "The purchase price of a product only",
+      "The total price paid for the product after sales",
+      "The sum of all costs associated with the acquisition and use of a product",
+      "The average cost of goods sold"
+    ],
+    "correct": "The sum of all costs associated with the acquisition and use of a product",
+    "explanation": "TCO encompasses not just the purchase price, but all costs incurred throughout the product's lifecycle, including maintenance, operation, and disposal costs."
+  },
+  {
+    "question": "In a supply chain, the concept of 'channel of disruption' refers to:",
+    "choices": [
+      "The direct route products take from suppliers to customers",
+      "Interruptions in the flow of goods and services from manufacturers to consumers",
+      "The communication between different supply chain partners",
+      "Strategies to minimize shipping costs"
+    ],
+    "correct": "Interruptions in the flow of goods and services from manufacturers to consumers",
+    "explanation": "The channel of disruption highlights the challenges that can arise in delivering products effectively to customers due to various disruptions in the supply chain."
+  },
+  {
+    "question": "What is the primary function of logistics within a supply chain?",
+    "choices": [
+      "To manage supplier relationships",
+      "To oversee the production process",
+      "To ensure the effective transportation and delivery of products",
+      "To maintain inventory levels"
+    ],
+    "correct": "To ensure the effective transportation and delivery of products",
+    "explanation": "Logistics focuses on the planning and execution of transporting goods and ensuring that products reach the right location at the right time."
+  },
+  {
+    "question": "Which of the following describes 'reverse logistics'?",
+    "choices": [
+      "The flow of goods from suppliers to retailers",
+      "The process of returning defective products to the manufacturer",
+      "The movement of raw materials to production facilities",
+      "The distribution of finished goods to customers"
+    ],
+    "correct": "The process of returning defective products to the manufacturer",
+    "explanation": "Reverse logistics involves managing the return flow of goods from customers back to manufacturers, often for repair, recycling, or proper disposal."
+  },
+  {
+    "question": "The 'service package' concept in service delivery includes:",
+    "choices": [
+      "Only the tangible products offered",
+      "A bundle of goods and services provided in a specific environment",
+      "The pricing strategy for services",
+      "The logistics of service delivery"
+    ],
+    "correct": "A bundle of goods and services provided in a specific environment",
+    "explanation": "The service package encompasses all elements that contribute to the customer experience, including both tangible and intangible aspects of service delivery."
+  },
+  {
+    "question": "Which of the following is NOT a key characteristic of effective supply chain management?",
+    "choices": [
+      "Coordination between supply chain partners",
+      "High levels of inventory to meet demand",
+      "Focus on cost reduction",
+      "Flexibility to respond to changes in demand"
+    ],
+    "correct": "High levels of inventory to meet demand",
+    "explanation": "Effective supply chain management aims to minimize inventory levels while ensuring that demand is met through better coordination and responsiveness."
+  },
+  {
+    "question": "What is a potential consequence of high inventory levels in a supply chain?",
+    "choices": [
+      "Improved cash flow",
+      "Increased holding costs",
+      "Enhanced customer service",
+      "Greater flexibility in operations"
+    ],
+    "correct": "Increased holding costs",
+    "explanation": "High inventory levels can lead to increased holding costs, including storage, insurance, and potential obsolescence, negatively impacting profitability."
+  },
+  {
+    "question": "Which strategy is most suitable for a company with unpredictable demand and a short product lifecycle?",
+    "choices": [
+      "Lean strategy",
+      "Agile strategy",
+      "Push strategy",
+      "Fixed production strategy"
+    ],
+    "correct": "Agile strategy",
+    "explanation": "An agile strategy allows companies to quickly respond to changing customer demands, making it ideal for products with short lifecycles and unpredictable demand patterns."
+  },
+  {
+    "question": "In supply chain network design, what do qualitative factors refer to?",
+    "choices": [
+      "Measurable factors with numerical values",
+      "Subjective factors that are not easily quantified",
+      "Costs associated with transportation",
+      "Inventory turnover ratios"
+    ],
+    "correct": "Subjective factors that are not easily quantified",
+    "explanation": "Qualitative factors involve more subjective evaluations, such as employee skills, company culture, and market perceptions, which are essential for comprehensive decision-making."
+  },
+  {
+    "question": "What is 'facility layout' in supply chain management?",
+    "choices": [
+      "The process of selecting suppliers for raw materials",
+      "The arrangement of resources within a facility",
+      "The decision-making process regarding transportation routes",
+      "The plan for managing inventory levels"
+    ],
+    "correct": "The arrangement of resources within a facility",
+    "explanation": "Facility layout refers to the physical arrangement of workspaces, equipment, and stock-holding points to optimize workflow and efficiency in operations."
+  },
+  {
+    "question": "What does the term 'service quality' typically encompass?",
+    "choices": [
+      "The cost of providing a service",
+      "The reliability and responsiveness of service delivery",
+      "The speed of product delivery",
+      "The efficiency of the supply chain"
+    ],
+    "correct": "The reliability and responsiveness of service delivery",
+    "explanation": "Service quality involves factors such as reliability, responsiveness, assurance, empathy, and the tangible aspects of the service experience."
+  },
+  {
+    "question": "Which of the following inventory types is associated with goods that are ready for sale?",
+    "choices": [
+      "Raw materials",
+      "Work in process (WIP)",
+      "Finished goods",
+      "Cycle stock"
+    ],
+    "correct": "Finished goods",
+    "explanation": "Finished goods inventory includes products that have completed the production process and are ready to be sold to customers."
+  },
+  {
+    "question": "What is the primary focus of supply chain management?",
+    "choices": [
+      "To enhance marketing efforts",
+      "To optimize the flow of products, information, and funds across the supply chain",
+      "To minimize production costs only",
+      "To manage human resources effectively"
+    ],
+    "correct": "To optimize the flow of products, information, and funds across the supply chain",
+    "explanation": "Supply chain management aims to improve the efficiency and effectiveness of the flow of products, information, and financial resources to meet customer needs."
+  },
+  {
+    "question": "Which forecasting method would be most appropriate for a new product without historical sales data?",
+    "choices": [
+      "Time series analysis",
+      "Qualitative methods",
+      "Regression analysis",
+      "Statistical process control"
+    ],
+    "correct": "Qualitative methods",
+    "explanation": "Qualitative forecasting methods rely on subjective judgment and insights when historical data is unavailable, making them suitable for new product launches."
+  },
+  {
+    "question": "In a supply chain, what is the term 'channel of distribution' used to describe?",
+    "choices": [
+      "The movement of goods from suppliers to manufacturers",
+      "The route products take from manufacturers to end consumers",
+      "The process of returning products to suppliers",
+      "The logistics of raw material procurement"
+    ],
+    "correct": "The route products take from manufacturers to end consumers",
+    "explanation": "The channel of distribution outlines how products are delivered from manufacturers to the final consumer, encompassing all intermediaries involved in the process."
+  },
+  {
+    "question": "Which of the following factors primarily influences the selection of production sites?",
+    "choices": [
+      "Market trends",
+      "Shipping schedules",
+      "Costs, logistics, and workforce quality",
+      "Consumer preferences"
+    ],
+    "correct": "Costs, logistics, and workforce quality",
+    "explanation": "Factors like costs, logistics considerations, and the quality of the available workforce significantly impact decisions regarding the selection of production sites."
+  },
+  {
+    "question": "Which inventory management approach focuses on reducing waste while maintaining product availability?",
+    "choices": [
+      "Just-in-time (JIT)",
+      "Economic Order Quantity (EOQ)",
+      "Push strategy",
+      "Fixed order quantity system"
+    ],
+    "correct": "Just-in-time (JIT)",
+    "explanation": "The JIT approach emphasizes minimizing inventory levels and waste, ensuring that materials arrive only as they are needed in the production process, thus maintaining product availability efficiently."
+  },
+  {
+    "question": "In supply chain management, what does 'forecasting' typically involve?",
+    "choices": [
+      "Predicting future events based on past and present data",
+      "Analyzing current inventory levels",
+      "Setting production schedules",
+      "Managing supplier relationships"
+    ],
+    "correct": "Predicting future events based on past and present data",
+    "explanation": "Forecasting in supply chain management is the process of making predictions about future demand and trends by analyzing historical data and current market conditions."
+  },
+  {
+    "question": "Which strategy focuses on minimizing waste while maximizing productivity in a supply chain?",
+    "choices": [
+      "Agile strategy",
+      "Lean strategy",
+      "Push strategy",
+      "Fixed capacity strategy"
+    ],
+    "correct": "Lean strategy",
+    "explanation": "Lean strategies aim to eliminate waste and enhance efficiency in production processes, ensuring optimal resource utilization while maintaining product quality."
+  },
+  {
+    "question": "In the context of inventory management, what does the term 'cycle stock' refer to?",
+    "choices": [
+      "The inventory held for safety reasons",
+      "Inventory that is in transit",
+      "The stock used to meet regular demand",
+      "Finished goods ready for sale"
+    ],
+    "correct": "The stock used to meet regular demand",
+    "explanation": "Cycle stock represents the inventory held to satisfy normal demand levels, which is replenished regularly based on sales forecasts."
+  },
+  {
+    "question": "What is a key characteristic of a 'make-to-order' production strategy?",
+    "choices": [
+      "Products are produced in anticipation of demand.",
+      "Products are manufactured only after receiving a customer order.",
+      "High levels of finished goods inventory are maintained.",
+      "Production processes are standardized."
+    ],
+    "correct": "Products are manufactured only after receiving a customer order.",
+    "explanation": "The make-to-order strategy focuses on customizing products based on specific customer requests, which helps reduce excess inventory."
+  },
+  {
+    "question": "What does the term 'bill of materials' (BOM) refer to in supply chain management?",
+    "choices": [
+      "A list of all suppliers for a product",
+      "A document that outlines the costs associated with production",
+      "A detailed list of raw materials, components, and subassemblies needed to manufacture a product",
+      "A forecast of sales for a given period"
+    ],
+    "correct": "A detailed list of raw materials, components, and subassemblies needed to manufacture a product",
+    "explanation": "A bill of materials is essential for understanding the components required for production and helps in inventory management and planning."
+  },
+  {
+    "question": "Which of the following statements is true regarding the 'pull system'?",
+    "choices": [
+      "It relies on forecasts to determine production levels.",
+      "It reduces waste by producing only based on actual customer demand.",
+      "It typically results in higher inventory levels.",
+      "It is less flexible than a push system."
+    ],
+    "correct": "It reduces waste by producing only based on actual customer demand.",
+    "explanation": "A pull system operates by producing goods in response to real-time demand, minimizing waste and excess inventory."
+  },
+  {
+    "question": "What is the primary function of 'logistics' within a supply chain?",
+    "choices": [
+      "To enhance product design",
+      "To manage the flow of goods, information, and services",
+      "To improve marketing strategies",
+      "To maintain supplier relationships"
+    ],
+    "correct": "To manage the flow of goods, information, and services",
+    "explanation": "Logistics focuses on the planning, execution, and control of the movement and storage of goods and services throughout the supply chain."
+  },
+  {
+    "question": "In the context of supply chain performance, what does 'inventory turnover' measure?",
+    "choices": [
+      "The number of units produced in a given time period",
+      "The rate at which inventory is sold and replaced",
+      "The total cost of holding inventory",
+      "The lead time for product delivery"
+    ],
+    "correct": "The rate at which inventory is sold and replaced",
+    "explanation": "Inventory turnover is a key performance metric that indicates how efficiently a company is managing its inventory, calculated as the cost of goods sold divided by the average inventory."
+  },
+  {
+    "question": "Which term describes the costs incurred when a company runs out of stock?",
+    "choices": [
+      "Holding costs",
+      "Shortage costs",
+      "Setup costs",
+      "Transaction costs"
+    ],
+    "correct": "Shortage costs",
+    "explanation": "Shortage costs arise when a business cannot fulfill customer demand due to insufficient inventory, potentially leading to lost sales and customer dissatisfaction."
+  },
+  {
+    "question": "Which of the following best describes 'aggregate planning'?",
+    "choices": [
+      "Developing detailed production schedules for the short term",
+      "A long-term strategy for supply chain management",
+      "Coordinating demand forecasts with production capacity",
+      "Managing supplier relationships"
+    ],
+    "correct": "Coordinating demand forecasts with production capacity",
+    "explanation": "Aggregate planning involves aligning demand forecasts with production capabilities to optimize resource utilization and meet customer needs effectively."
+  },
+  {
+    "question": "What does the 'Kanban' system signify in supply chain management?",
+    "choices": [
+      "A method for forecasting demand",
+      "A scheduling system for lean manufacturing",
+      "A strategy for managing supplier relationships",
+      "An approach to quality control"
+    ],
+    "correct": "A scheduling system for lean manufacturing",
+    "explanation": "Kanban is a visual scheduling system that helps manage and control work in progress in lean manufacturing, facilitating smoother production flows."
+  },
+  {
+    "question": "Which of the following is an advantage of outsourcing in supply chain management?",
+    "choices": [
+      "Increased production costs",
+      "Improved focus on core competencies",
+      "Higher inventory levels",
+      "Reduced flexibility in operations"
+    ],
+    "correct": "Improved focus on core competencies",
+    "explanation": "Outsourcing allows companies to concentrate on their core competencies while delegating non-core activities to external suppliers, enhancing overall efficiency."
+  },
+  {
+    "question": "What does 'cross-docking' involve in a supply chain?",
+    "choices": [
+      "Storing products for extended periods",
+      "Consolidating products from different suppliers for immediate distribution",
+      "Producing goods in multiple locations",
+      "Increasing the number of facilities in a network"
+    ],
+    "correct": "Consolidating products from different suppliers for immediate distribution",
+    "explanation": "Cross-docking is a logistics practice where products from multiple suppliers are sorted and consolidated for immediate shipment to customers, reducing storage time."
+  },
+  {
+    "question": "In supply chain management, 'effective capacity' refers to:",
+    "choices": [
+      "The theoretical maximum output of a production process",
+      "The maximum output achievable under normal conditions",
+      "The output achieved during peak periods",
+      "The actual output produced during a given time period"
+    ],
+    "correct": "The maximum output achievable under normal conditions",
+    "explanation": "Effective capacity is the realistic production output that can be sustained under regular operating conditions, considering factors like maintenance and downtime."
+  },
+  {
+    "question": "The term 'service quality' encompasses which of the following dimensions?",
+    "choices": [
+      "Reliability, responsiveness, assurance, empathy, and tangibles",
+      "Cost efficiency, production speed, and product variety",
+      "Supplier reliability, logistics efficiency, and market share",
+      "Inventory management, demand forecasting, and production capacity"
+    ],
+    "correct": "Reliability, responsiveness, assurance, empathy, and tangibles",
+    "explanation": "Service quality is evaluated through dimensions that include reliability, responsiveness, assurance, empathy, and the tangibles associated with the service experience."
+  },
+  {
+    "question": "What is the main objective of a Master Production Schedule (MPS)?",
+    "choices": [
+      "To define marketing strategies",
+      "To forecast long-term demand",
+      "To plan and control production quantities and timing",
+      "To manage supplier relationships"
+    ],
+    "correct": "To plan and control production quantities and timing",
+    "explanation": "The MPS outlines specific products to be produced and their quantities over a defined period, coordinating production with customer demand."
+  },
+  {
+    "question": "What is 'safety stock' in inventory management?",
+    "choices": [
+      "The amount of inventory kept on hand to prevent stockouts",
+      "Inventory held for seasonal demand",
+      "The minimum order quantity required from suppliers",
+      "The excess inventory produced to meet forecasted demand"
+    ],
+    "correct": "The amount of inventory kept on hand to prevent stockouts",
+    "explanation": "Safety stock acts as a buffer to protect against uncertainties in demand and supply chain disruptions, ensuring that customer orders can be fulfilled."
+  },
+  {
+    "question": "The 'bullwhip effect' in supply chains refers to:",
+    "choices": [
+      "A steady and predictable flow of goods",
+      "Increased distortion of demand information as it moves up the supply chain",
+      "The smooth coordination of inventory levels",
+      "Reduced variability in production schedules"
+    ],
+    "correct": "Increased distortion of demand information as it moves up the supply chain",
+    "explanation": "The bullwhip effect describes how small fluctuations in consumer demand can lead to larger variations in demand seen by suppliers, resulting in inefficiencies and excess inventory."
+  },
+  {
+    "question": "Which of the following is an example of a qualitative forecasting method?",
+    "choices": [
+      "Time series analysis",
+      "Test markets",
+      "Moving averages",
+      "Regression analysis"
+    ],
+    "correct": "Test markets",
+    "explanation": "Test markets involve launching a product in a limited area to gauge consumer response, making it a qualitative forecasting method based on actual customer behavior rather than historical data."
+  },
+  {
+    "question": "What does 'vendor managed inventory' (VMI) allow suppliers to do?",
+    "choices": [
+      "Increase their inventory levels without coordination",
+      "Monitor and replenish inventory levels at the retailer&#039;s location",
+      "Set prices for the retailer&#039;s products",
+      "Control the production process of the retailer"
+    ],
+    "correct": "Monitor and replenish inventory levels at the retailer&#039;s location",
+    "explanation": "VMI enables suppliers to have visibility into inventory levels at the retailer’s site and manage replenishment proactively, enhancing efficiency and reducing stockouts."
+  },
+  {
+    "question": "What does the term 'economic order quantity' (EOQ) help companies determine?",
+    "choices": [
+      "The total production costs for a product",
+      "The optimal order quantity that minimizes total inventory costs",
+      "The maximum amount of stock that can be stored",
+      "The ideal time to replenish inventory"
+    ],
+    "correct": "The optimal order quantity that minimizes total inventory costs",
+    "explanation": "EOQ is a formula that helps businesses determine the most cost-effective quantity of stock to order, balancing ordering costs and holding costs."
+  },
+  {
+    "question": "In the context of supply chain management, what is 'capacity planning'?",
+    "choices": [
+      "The process of forecasting customer demand",
+      "Determining the maximum output achievable by a production system",
+      "Assessing supplier capabilities and reliability",
+      "Planning the logistics of product delivery"
+    ],
+    "correct": "Determining the maximum output achievable by a production system",
+    "explanation": "Capacity planning involves assessing the production capacity needed to meet changing demands for products, ensuring that resources are utilized effectively."
+  },
+  {
+    "question": "Which of the following is a characteristic of a job shop?",
+    "choices": [
+      "High volume of standardized products",
+      "Low volume of customized products",
+      "Continuous flow of materials",
+      "High flexibility in production processes"
+    ],
+    "correct": "High flexibility in production processes",
+    "explanation": "A job shop is designed for low-volume production of customized products, allowing for significant flexibility and adaptability to specific customer requirements."
+  },
+  {
+    "question": "What does 'lead time' typically include in a supply chain context?",
+    "choices": [
+      "Only the time taken for manufacturing",
+      "The total time from order placement to delivery",
+      "The duration of supplier negotiations",
+      "The time for internal approval processes"
+    ],
+    "correct": "The total time from order placement to delivery",
+    "explanation": "Lead time encompasses all stages from when a customer places an order to when they receive the product, including processing, manufacturing, and shipping times."
+  },
+  {
+    "question": "What is a primary benefit of using the Just-in-Time (JIT) inventory strategy?",
+    "choices": [
+      "It increases overall inventory levels.",
+      "It reduces waste and improves cash flow.",
+      "It allows for bulk purchasing discounts.",
+      "It minimizes the need for supplier relationships."
+    ],
+    "correct": "It reduces waste and improves cash flow.",
+    "explanation": "JIT aims to reduce waste by receiving goods only as they are needed in the production process, leading to lower inventory holding costs and improved cash flow."
+  },
+  {
+    "question": "Which forecasting method is primarily based on statistical analysis of historical data?",
+    "choices": [
+      "Delphi technique",
+      "Market surveys",
+      "Quantitative methods",
+      "Focus groups"
+    ],
+    "correct": "Quantitative methods",
+    "explanation": "Quantitative forecasting methods utilize historical data and statistical techniques to predict future demand, making them effective when reliable past data is available."
+  },
+  {
+    "question": "What is a key factor that influences the choice of production sites in a global supply chain?",
+    "choices": [
+      "The aesthetics of the production facility",
+      "Cultural differences in consumer preferences",
+      "Logistics costs and workforce quality",
+      "The size of the facility"
+    ],
+    "correct": "Logistics costs and workforce quality",
+    "explanation": "When selecting production sites, businesses consider logistics costs, which include transportation and warehousing, as well as the skill level and productivity of the local workforce."
+  },
+  {
+    "question": "In supply chain management, what does the 'push strategy' involve?",
+    "choices": [
+      "Producing goods based on actual sales",
+      "Distributing products only as they are ordered",
+      "Manufacturing products based on forecasted demand",
+      "Reducing production levels to meet immediate needs"
+    ],
+    "correct": "Manufacturing products based on forecasted demand",
+    "explanation": "A push strategy focuses on producing goods in advance based on demand forecasts, which can lead to surplus inventory if forecasts are inaccurate."
+  },
+  {
+    "question": "The term 'pipeline inventory' refers to:",
+    "choices": [
+      "Inventory stored at the production facility",
+      "Inventory in transit between locations",
+      "Finished goods ready for sale",
+      "Safety stock held for unexpected demand"
+    ],
+    "correct": "Inventory in transit between locations",
+    "explanation": "Pipeline inventory consists of goods that are currently being transported between suppliers and customers, playing a crucial role in the overall supply chain flow."
+  },
+  {
+    "question": "What does 'value stream mapping' aim to identify in a production process?",
+    "choices": [
+      "The best suppliers in the market",
+      "Opportunities to reduce waste and improve efficiency",
+      "The total cost of goods sold",
+      "Customer satisfaction levels"
+    ],
+    "correct": "Opportunities to reduce waste and improve efficiency",
+    "explanation": "Value stream mapping is a lean management tool that visually represents the flow of materials and information in a process, helping to identify areas for improvement."
+  },
+  {
+    "question": "Which of the following is a potential disadvantage of high inventory levels?",
+    "choices": [
+      "Increased responsiveness to customer demand",
+      "Improved cash flow",
+      "Higher holding costs and risk of obsolescence",
+      "Enhanced supplier relationships"
+    ],
+    "correct": "Higher holding costs and risk of obsolescence",
+    "explanation": "Maintaining high inventory levels can lead to increased costs associated with storage, handling, and the risk of products becoming outdated or unsellable."
+  },
+  {
+    "question": "What is a 'strategic alliance' in the context of supply chains?",
+    "choices": [
+      "A partnership focused on minimizing costs",
+      "A collaboration between two or more organizations to pursue agreed-upon objectives while remaining independent",
+      "A method of outsourcing non-core business functions",
+      "A temporary agreement for specific projects"
+    ],
+    "correct": "A collaboration between two or more organizations to pursue agreed-upon objectives while remaining independent",
+    "explanation": "Strategic alliances involve long-term collaborations that enhance capabilities and resources while allowing each organization to maintain its independence."
+  },
+  {
+    "question": "What does 'tariffs' refer to in international trade?",
+    "choices": [
+      "Discounts offered on bulk orders",
+      "A tax imposed on imported goods",
+      "The cost of transporting goods",
+      "A measure of product quality"
+    ],
+    "correct": "A tax imposed on imported goods",
+    "explanation": "Tariffs are government-imposed taxes on imported goods designed to protect domestic industries and regulate trade between countries."
+  },
+  {
+    "question": "Which of the following best describes a 'process-oriented layout'?",
+    "choices": [
+      "High volume of standardized products with fixed processes",
+      "Flexible arrangement suited for a variety of products with low volume",
+      "Arrangement designed for a single product line",
+      "A layout optimized for continuous production flow"
+    ],
+    "correct": "Flexible arrangement suited for a variety of products with low volume",
+    "explanation": "A process-oriented layout groups similar processes together, allowing for flexibility in producing a diverse range of low-volume products."
+  },
+  {
+    "question": "In supply chain terminology, what is meant by 'service quality'?",
+    "choices": [
+      "The efficiency of product delivery",
+      "The level of customer satisfaction achieved",
+      "The reliability and responsiveness of service delivery",
+      "The cost-effectiveness of operations"
+    ],
+    "correct": "The reliability and responsiveness of service delivery",
+    "explanation": "Service quality assesses how well an organization meets customer expectations regarding reliability, responsiveness, assurance, empathy, and tangible aspects of service."
+  },
+  {
+    "question": "What is the primary goal of supply chain management?",
+    "choices": [
+      "To focus solely on manufacturing processes",
+      "To enhance marketing strategies",
+      "To optimize the flow of goods, information, and finances throughout the supply chain",
+      "To minimize employee turnover"
+    ],
+    "correct": "To optimize the flow of goods, information, and finances throughout the supply chain",
+    "explanation": "Supply chain management seeks to enhance the overall efficiency and effectiveness of the supply chain, ensuring products and information flow smoothly to meet customer needs."
+  },
+  {
+    "question": "Which of the following factors affects the capacity planning process?",
+    "choices": [
+      "Market trends",
+      "Supplier negotiation outcomes",
+      "Customer demand fluctuations",
+      "Transportation costs"
+    ],
+    "correct": "Customer demand fluctuations",
+    "explanation": "Capacity planning must account for variations in customer demand to ensure that production resources align with market needs effectively."
+  },
+  {
+    "question": "What does 'Just-in-Case' inventory strategy emphasize?",
+    "choices": [
+      "Maintaining minimal stock levels",
+      "Producing items only when there is actual demand",
+      "Keeping excess inventory to safeguard against uncertainties",
+      "Relying solely on supplier reliability"
+    ],
+    "correct": "Keeping excess inventory to safeguard against uncertainties",
+    "explanation": "The Just-in-Case strategy involves holding additional inventory to protect against supply chain disruptions or unexpected demand spikes."
+  },
+  {
+    "question": "In supply chain management, 'total cost of ownership' (TCO) includes which of the following?",
+    "choices": [
+      "Only the purchase price of goods",
+      "All costs associated with acquiring and using a product",
+      "The price of raw materials only",
+      "Transportation costs only"
+    ],
+    "correct": "All costs associated with acquiring and using a product",
+    "explanation": "TCO considers all costs related to a product throughout its lifecycle, including purchase price, maintenance, and disposal costs."
+  },
+  {
+    "question": "What does 'effective capacity' represent in a production system?",
+    "choices": [
+      "The theoretical maximum output of the system",
+      "The output achievable under normal operating conditions",
+      "The output produced during peak demand periods",
+      "The amount of inventory that can be stored"
+    ],
+    "correct": "The output achievable under normal operating conditions",
+    "explanation": "Effective capacity refers to the realistic production output that a facility can achieve under regular circumstances, taking into account factors like downtime and maintenance."
+  },
+  {
+    "question": "Which of the following is NOT typically considered a key performance indicator (KPI) in supply chain management?",
+    "choices": [
+      "Inventory turnover ratio",
+      "Order fulfillment rate",
+      "Employee satisfaction score",
+      "Total logistics costs"
+    ],
+    "correct": "Employee satisfaction score",
+    "explanation": "While employee satisfaction is important, KPIs in supply chain management primarily focus on metrics that measure operational efficiency, such as inventory turnover and order fulfillment rates."
+  },
+  {
+    "question": "In terms of supply chain logistics, what does 'lead time' indicate?",
+    "choices": [
+      "The time required for production only",
+      "The total duration from order placement to order receipt",
+      "The waiting time for shipping confirmations",
+      "The time needed to negotiate contracts"
+    ],
+    "correct": "The total duration from order placement to order receipt",
+    "explanation": "Lead time represents the comprehensive timeframe required from the moment an order is placed until the product is delivered to the customer."
+  },
+  {
+    "question": "Which inventory strategy is characterized by producing goods only when they are ordered?",
+    "choices": [
+      "Make-to-stock",
+      "Assemble-to-order",
+      "Make-to-order",
+      "Engineer-to-order"
+    ],
+    "correct": "Make-to-order",
+    "explanation": "The make-to-order strategy focuses on manufacturing products based on specific customer orders, thereby reducing excess inventory and enabling customization."
+  },
+  {
+    "question": "What is a primary characteristic of 'lean manufacturing'?",
+    "choices": [
+      "Increasing inventory levels to meet demand",
+      "Focusing on minimizing waste and maximizing efficiency",
+      "Producing large quantities of standardized products",
+      "Maintaining high levels of finished goods inventory"
+    ],
+    "correct": "Focusing on minimizing waste and maximizing efficiency",
+    "explanation": "Lean manufacturing is a philosophy that aims to enhance operational efficiency by eliminating waste and optimizing production processes."
+  },
+  {
+    "question": "Which forecasting method would be most suitable for a product with a long sales history?",
+    "choices": [
+      "Qualitative methods",
+      "Delphi technique",
+      "Time series analysis",
+      "Test markets"
+    ],
+    "correct": "Time series analysis",
+    "explanation": "Time series analysis leverages historical sales data to identify trends and forecast future demand, making it ideal for established products with a reliable sales history."
+  },
+  {
+    "question": "What does 'cross-docking' aim to achieve in a supply chain?",
+    "choices": [
+      "Delaying shipments until all products are available",
+      "Minimizing storage time by transferring goods directly from inbound to outbound transport",
+      "Consolidating inventory in one central location",
+      "Increasing the number of warehouses in a distribution network"
+    ],
+    "correct": "Minimizing storage time by transferring goods directly from inbound to outbound transport",
+    "explanation": "Cross-docking enhances efficiency by reducing storage times and facilitating quicker product movement through the supply chain."
+  },
+  {
+    "question": "Which of the following represents a key benefit of using automation in supply chains?",
+    "choices": [
+      "Increased manual labor requirements",
+      "Higher production costs",
+      "Improved consistency and efficiency in operations",
+      "Decreased speed of production"
+    ],
+    "correct": "Improved consistency and efficiency in operations",
+    "explanation": "Automation leads to enhanced operational consistency and efficiency, reducing variability and improving overall production quality."
+  },
+  {
+    "question": "In supply chain terms, what is 'capacity utilization'?",
+    "choices": [
+      "The maximum production capacity of a facility",
+      "The percentage of total capacity being used",
+      "The total output achieved over a specific period",
+      "The planned production levels for the next quarter"
+    ],
+    "correct": "The percentage of total capacity being used",
+    "explanation": "Capacity utilization measures how much of a facility’s total potential output is actually being achieved, indicating operational efficiency."
+  },
+  {
+    "question": "What is a 'vendor managed inventory' (VMI) system?",
+    "choices": [
+      "A strategy where the supplier manages the retailer&#039;s inventory",
+      "A method for calculating total cost of ownership",
+      "An inventory system that only tracks sales",
+      "A process for negotiating prices with suppliers"
+    ],
+    "correct": "A strategy where the supplier manages the retailer&#039;s inventory",
+    "explanation": "VMI allows suppliers to have access to the retailer’s inventory levels and sales data, enabling them to manage replenishment effectively."
+  },
+  {
+    "question": "What does the term 'shortage costs' refer to in inventory management?",
+    "choices": [
+      "Costs related to carrying excess inventory",
+      "Costs incurred when a company runs out of stock",
+      "Costs associated with ordering inventory",
+      "Costs of storing inventory"
+    ],
+    "correct": "Costs incurred when a company runs out of stock",
+    "explanation": "Shortage costs arise when inventory levels are insufficient to meet demand, resulting in lost sales, customer dissatisfaction, and potential reputational damage."
+  },
+  {
+    "question": "What does 'outsource' mean in the context of supply chain management?",
+    "choices": [
+      "To bring business functions in-house",
+      "To contract work to external companies",
+      "To sell products directly to consumers",
+      "To hire more employees internally"
+    ],
+    "correct": "To contract work to external companies",
+    "explanation": "Outsourcing involves delegating certain business operations or functions to third-party companies to improve efficiency and focus on core activities."
+  },
+  {
+    "question": "Which inventory type is kept to prevent stockouts and absorb variability in demand?",
+    "choices": [
+      "Cycle stock",
+      "Safety stock",
+      "Finished goods",
+      "Work-in-progress (WIP)"
+    ],
+    "correct": "Safety stock",
+    "explanation": "Safety stock is an additional inventory held to mitigate the risk of stockouts caused by uncertainties in supply and demand."
+  },
+  {
+    "question": "What does the term 'push strategy' imply in supply chain management?",
+    "choices": [
+      "Producing goods based on actual demand",
+      "Manufacturing based on forecasted demand",
+      "Reducing inventory levels to a minimum",
+      "Using real-time data to manage inventory"
+    ],
+    "correct": "Manufacturing based on forecasted demand",
+    "explanation": "A push strategy involves producing goods in advance based on anticipated customer demand rather than real-time sales."
+  },
+  {
+    "question": "In supply chain logistics, what is the significance of 'lead time'?",
+    "choices": [
+      "It determines the quality of the products.",
+      "It measures the total time taken from order placement to delivery.",
+      "It refers to the time for employee training.",
+      "It indicates the speed of production."
+    ],
+    "correct": "It measures the total time taken from order placement to delivery.",
+    "explanation": "Lead time encompasses all steps in the order fulfillment process, crucial for planning and managing customer expectations."
+  },
+  {
+    "question": "What is the focus of 'supply chain integration'?",
+    "choices": [
+      "Isolating departments to enhance productivity",
+      "Coordinating activities among supply chain partners for seamless operations",
+      "Reducing costs by outsourcing",
+      "Increasing inventory levels to meet demand"
+    ],
+    "correct": "Coordinating activities among supply chain partners for seamless operations",
+    "explanation": "Supply chain integration aims to enhance efficiency and responsiveness by aligning and coordinating operations across various partners in the supply chain."
+  },
+  {
+    "question": "Which of the following best describes 'demand forecasting'?",
+    "choices": [
+      "The process of estimating future customer demand for a product",
+      "The strategy for managing supply chain relationships",
+      "A method for setting production schedules",
+      "The analysis of historical sales data"
+    ],
+    "correct": "The process of estimating future customer demand for a product",
+    "explanation": "Demand forecasting involves predicting the quantity of a product that customers will purchase in the future, essential for effective supply chain planning."
+  },
+  {
+    "question": "In the context of supply chains, what does 'cycle time' refer to?",
+    "choices": [
+      "The time taken for an entire production run",
+      "The total time from order placement to product delivery",
+      "The time each workstation has to complete its tasks",
+      "The average time for inventory turnover"
+    ],
+    "correct": "The time each workstation has to complete its tasks",
+    "explanation": "Cycle time is the maximum amount of time available for each station in the production process to finish its assigned tasks, crucial for meeting production schedules."
+  },
+  {
+    "question": "What is the purpose of using 'ABC analysis' in inventory management?",
+    "choices": [
+      "To track the overall financial performance of the supply chain",
+      "To classify inventory items based on their importance",
+      "To determine the best suppliers for raw materials",
+      "To optimize production scheduling"
+    ],
+    "correct": "To classify inventory items based on their importance",
+    "explanation": "ABC analysis categorizes inventory into three classes (A, B, C) based on their value and usage, helping businesses prioritize management efforts."
+  },
+  {
+    "question": "In supply chain management, what does the term 'vendor managed inventory' (VMI) entail?",
+    "choices": [
+      "The retailer manages its own inventory levels",
+      "The vendor monitors and replenishes inventory at the retailer’s site",
+      "Suppliers control the entire production process",
+      "Customers manage their own inventory needs"
+    ],
+    "correct": "The vendor monitors and replenishes inventory at the retailer’s site",
+    "explanation": "VMI allows suppliers to manage their products' inventory levels at the customer's location, enhancing efficiency and reducing stockouts."
+  },
+  {
+    "question": "What is a primary characteristic of a 'continuous flow' process?",
+    "choices": [
+      "High variation in product types",
+      "Low volume of standardized products",
+      "An automated process with no variation",
+      "Flexible production for customized orders"
+    ],
+    "correct": "An automated process with no variation",
+    "explanation": "Continuous flow processes produce a high volume of standardized products without interruptions, typically seen in industries like oil refining."
+  },
+  {
+    "question": "Which of the following is an example of a qualitative forecasting method?",
+    "choices": [
+      "Time series analysis",
+      "Moving averages",
+      "Market surveys",
+      "Regression analysis"
+    ],
+    "correct": "Market surveys",
+    "explanation": "Market surveys gather opinions and insights from customers or experts, making them qualitative methods that do not rely on historical data."
+  },
+  {
+    "question": "What does 'cross-docking' aim to reduce in a supply chain?",
+    "choices": [
+      "Inventory carrying costs",
+      "The time products spend in storage",
+      "Transportation costs",
+      "Production lead times"
+    ],
+    "correct": "The time products spend in storage",
+    "explanation": "Cross-docking facilitates the direct transfer of goods from incoming to outgoing transport, minimizing storage time and improving efficiency."
+  },
+  {
+    "question": "What is the primary purpose of a Master Production Schedule (MPS)?",
+    "choices": [
+      "To determine long-term strategic goals",
+      "To outline specific production quantities and timing",
+      "To manage supplier relationships",
+      "To forecast future market trends"
+    ],
+    "correct": "To outline specific production quantities and timing",
+    "explanation": "The MPS provides detailed guidance on what products to produce and when, aligning production efforts with demand forecasts."
+  },
+  {
+    "question": "In supply chain terminology, what does 'inventory turnover' measure?",
+    "choices": [
+      "The speed at which products are produced",
+      "The rate at which inventory is sold and replaced",
+      "The efficiency of supply chain operations",
+      "The time products spend in storage"
+    ],
+    "correct": "The rate at which inventory is sold and replaced",
+    "explanation": "Inventory turnover reflects how efficiently a company manages its stock, calculated by dividing the cost of goods sold by average inventory."
+  },
+  {
+    "question": "What does 'supply chain sustainability' focus on?",
+    "choices": [
+      "Reducing production costs only",
+      "Balancing financial performance with social and environmental responsibilities",
+      "Enhancing customer satisfaction",
+      "Increasing the speed of production processes"
+    ],
+    "correct": "Balancing financial performance with social and environmental responsibilities",
+    "explanation": "Supply chain sustainability aims to meet present needs without compromising future generations, emphasizing responsible practices across the supply chain."
+  },
+  {
+    "question": "In supply chain management, what does the term 'tariffs' refer to?",
+    "choices": [
+      "Discounts offered to bulk buyers",
+      "Fees imposed on imported goods",
+      "Costs associated with transportation",
+      "Regulations affecting product quality"
+    ],
+    "correct": "Fees imposed on imported goods",
+    "explanation": "Tariffs are government-imposed taxes on imports, aimed at protecting domestic industries and generating revenue."
+  },
+  {
+    "question": "Which of the following is a potential disadvantage of maintaining high levels of inventory?",
+    "choices": [
+      "Increased stockout risks",
+      "Reduced cash flow due to capital tied up in inventory",
+      "Improved customer satisfaction",
+      "Lower carrying costs"
+    ],
+    "correct": "Reduced cash flow due to capital tied up in inventory",
+    "explanation": "High inventory levels can lead to cash flow issues as capital is tied up in unsold goods, potentially affecting the company’s financial health."
+  },
+  {
+    "question": "What is the primary characteristic of a job shop production environment?",
+    "choices": [
+      "High volume, standardized production",
+      "Low volume, customized production",
+      "Continuous flow of materials",
+      "No variability in product types"
+    ],
+    "correct": "Low volume, customized production",
+    "explanation": "A job shop is designed for low-volume production of highly customized products, providing flexibility to adapt to specific customer needs."
+  },
+  {
+    "question": "Which strategy is characterized by producing goods only when there is actual demand?",
+    "choices": [
+      "Make-to-stock",
+      "Assemble-to-order",
+      "Make-to-order",
+      "Engineer-to-order"
+    ],
+    "correct": "Make-to-order",
+    "explanation": "Make-to-order production focuses on creating products based on specific customer requests, minimizing excess inventory."
+  },
+  {
+    "question": "In supply chain management, what does 'capacity utilization' measure?",
+    "choices": [
+      "The efficiency of supply chain operations",
+      "The percentage of production capacity being used",
+      "The amount of inventory in stock",
+      "The speed of product delivery"
+    ],
+    "correct": "The percentage of production capacity being used",
+    "explanation": "Capacity utilization reflects how effectively a company's production capacity is being employed, indicating operational efficiency."
+  },
+  {
+    "question": "Which of the following is a primary objective of supply chain management?",
+    "choices": [
+      "To isolate departments for efficiency",
+      "To reduce production costs at any expense",
+      "To synchronize supply and demand effectively",
+      "To minimize supplier relationships"
+    ],
+    "correct": "To synchronize supply and demand effectively",
+    "explanation": "The core goal of supply chain management is to ensure that supply meets demand in an efficient and timely manner."
+  },
+  {
+    "question": "What is the primary focus of 'lean manufacturing'?",
+    "choices": [
+      "Increasing inventory levels",
+      "Reducing waste and improving efficiency",
+      "Maximizing product variations",
+      "Focusing on high production volumes only"
+    ],
+    "correct": "Reducing waste and improving efficiency",
+    "explanation": "Lean manufacturing aims to eliminate waste and optimize processes to enhance overall operational efficiency."
+  },
+  {
+    "question": "In supply chain logistics, what is the purpose of 'reverse logistics'?",
+    "choices": [
+      "To streamline production processes",
+      "To return products from customers back to the manufacturer",
+      "To manage supplier negotiations",
+      "To improve product design"
+    ],
+    "correct": "To return products from customers back to the manufacturer",
+    "explanation": "Reverse logistics involves managing the flow of returned goods from customers back to manufacturers for repair, recycling, or disposal."
+  },
+  {
+    "question": "What is 'benchmarking' in supply chain management?",
+    "choices": [
+      "A method for tracking customer satisfaction",
+      "A process of comparing performance against best practices",
+      "A technique for estimating production costs",
+      "A tool for managing inventory levels"
+    ],
+    "correct": "A process of comparing performance against best practices",
+    "explanation": "Benchmarking involves evaluating processes and performance metrics against industry standards or best practices to identify areas for improvement."
+  },
+  {
+    "question": "Which of the following best defines 'capacity planning'?",
+    "choices": [
+      "Determining the volume of inventory needed",
+      "Assessing production capacity to meet customer demand",
+      "Calculating transportation costs",
+      "Developing marketing strategies"
+    ],
+    "correct": "Assessing production capacity to meet customer demand",
+    "explanation": "Capacity planning focuses on evaluating and adjusting production capabilities to ensure that they align with expected demand levels."
+  },
+  {
+    "question": "What does 'total cost of ownership' (TCO) encompass?",
+    "choices": [
+      "The purchase price only",
+      "All costs associated with acquiring and using a product",
+      "The transportation costs only",
+      "The production costs only"
+    ],
+    "correct": "All costs associated with acquiring and using a product",
+    "explanation": "TCO takes into account all expenses related to a product's lifecycle, including acquisition, operation, and disposal costs."
+  },
+  {
+    "question": "Which of the following describes a 'pull system' in supply chain management?",
+    "choices": [
+      "Producing goods based on forecasted demand",
+      "Manufacturing based on actual customer orders",
+      "Maintaining high levels of finished goods inventory",
+      "Setting production schedules in advance"
+    ],
+    "correct": "Manufacturing based on actual customer orders",
+    "explanation": "A pull system produces goods in response to actual demand, minimizing excess inventory and enhancing responsiveness."
+  },
+  {
+    "question": "In supply chain terms, what does 'economic order quantity' (EOQ) help determine?",
+    "choices": [
+      "The total production costs for a product",
+      "The optimal order quantity that minimizes total inventory costs",
+      "The maximum amount of stock that can be stored",
+      "The ideal time to replenish inventory"
+    ],
+    "correct": "The optimal order quantity that minimizes total inventory costs",
+    "explanation": "EOQ is a formula that identifies the most cost-effective quantity of inventory to order, balancing ordering and holding costs."
+  },
+  {
+    "question": "What does 'cycle stock' refer to in inventory management?",
+    "choices": [
+      "The inventory held for safety reasons",
+      "Inventory that is in transit",
+      "The stock used to meet regular demand",
+      "Finished goods ready for sale"
+    ],
+    "correct": "The stock used to meet regular demand",
+    "explanation": "Cycle stock represents inventory held to satisfy normal demand levels, replenished regularly based on sales forecasts."
+  },
+  {
+    "question": "What is the primary objective of 'quality function deployment' (QFD)?",
+    "choices": [
+      "To reduce production costs",
+      "To translate customer needs into specific product features",
+      "To forecast demand",
+      "To manage supplier relationships"
+    ],
+    "correct": "To translate customer needs into specific product features",
+    "explanation": "QFD focuses on capturing and integrating customer requirements into product design and development processes to enhance customer satisfaction."
+  },
+  {
+    "question": "What does the term 'bottleneck' refer to in supply chain management?",
+    "choices": [
+      "A resource that has excess capacity",
+      "Any resource that restricts the overall output of the system",
+      "A delay in supplier deliveries",
+      "The maximum output of a production facility"
+    ],
+    "correct": "Any resource that restricts the overall output of the system",
+    "explanation": "A bottleneck is a constraint that limits the overall throughput of a system, affecting the production capacity and efficiency."
+  },
+  {
+    "question": "What does the 'lean' concept focus on within supply chains?",
+    "choices": [
+      "Increasing production volume",
+      "Reducing waste and improving processes",
+      "Expanding product variety",
+      "Maximizing inventory levels"
+    ],
+    "correct": "Reducing waste and improving processes",
+    "explanation": "Lean principles aim to enhance operational efficiency by identifying and eliminating waste throughout the supply chain."
+  },
+  {
+    "question": "What is 'reverse logistics'?",
+    "choices": [
+      "Managing the forward flow of goods",
+      "The process of returning products to manufacturers",
+      "Increasing inventory levels for future demand",
+      "Reducing production times"
+    ],
+    "correct": "The process of returning products to manufacturers",
+    "explanation": "Reverse logistics involves managing the return of goods from customers back to the supplier for various purposes, including recycling and repairs."
+  },
+  {
+    "question": "What does 'lead time' refer to in inventory management?",
+    "choices": [
+      "The time taken for production only",
+      "The time between placing an order and receiving it",
+      "The average time for inventory turnover",
+      "The total time spent in production planning"
+    ],
+    "correct": "The time between placing an order and receiving it",
+    "explanation": "Lead time is crucial for supply chain planning as it affects the timing of inventory replenishment and customer service levels."
+  },
+  {
+    "question": "What is a primary benefit of using automation in supply chains?",
+    "choices": [
+      "Increased manual labor requirements",
+      "Improved consistency and efficiency in operations",
+      "Higher production costs",
+      "Decreased speed of production"
+    ],
+    "correct": "Improved consistency and efficiency in operations",
+    "explanation": "Automation enhances operational consistency and efficiency, reducing variability and improving overall production quality."
+  },
+  {
+    "question": "What does the term 'shortage costs' refer to in inventory management?",
+    "choices": [
+      "Costs associated with carrying excess inventory",
+      "Costs incurred when a company runs out of stock",
+      "Costs related to ordering inventory",
+      "Costs of storing inventory"
+    ],
+    "correct": "Costs incurred when a company runs out of stock",
+    "explanation": "Shortage costs arise when inventory levels are insufficient to meet demand, leading to lost sales and customer dissatisfaction."
+  },
+  {
+    "question": "What is the primary purpose of a Master Production Schedule (MPS)?",
+    "choices": [
+      "To define marketing strategies",
+      "To manage supplier relationships",
+      "To outline specific production quantities and timing",
+      "To forecast future market trends"
+    ],
+    "correct": "To outline specific production quantities and timing",
+    "explanation": "The MPS provides detailed guidance on what products to produce and when, aligning production efforts with demand forecasts."
+  },
+  {
+    "question": "In supply chain management, what does 'capacity planning' focus on?",
+    "choices": [
+      "Forecasting customer demand",
+      "Managing supplier negotiations",
+      "Assessing production capacity to meet demand",
+      "Evaluating marketing strategies"
+    ],
+    "correct": "Assessing production capacity to meet demand",
+    "explanation": "Capacity planning involves evaluating the production capabilities needed to align with expected customer demand effectively."
+  },
+  {
+    "question": "What does 'total cost of ownership' (TCO) encompass?",
+    "choices": [
+      "The purchase price only",
+      "All costs associated with acquiring and using a product",
+      "The transportation costs only",
+      "The production costs only"
+    ],
+    "correct": "All costs associated with acquiring and using a product",
+    "explanation": "TCO takes into account all expenses related to a product's lifecycle, including acquisition, operation, and disposal costs."
+  },
+  {
+    "question": "Which of the following best describes 'process layout'?",
+    "choices": [
+      "High volume of standardized products with fixed processes",
+      "Flexible arrangement suited for a variety of products with low volume",
+      "Arrangement designed for a single product line",
+      "A layout optimized for continuous production flow"
+    ],
+    "correct": "Flexible arrangement suited for a variety of products with low volume",
+    "explanation": "A process layout groups similar processes together, allowing for flexibility in producing a diverse range of low-volume products."
+  },
+  {
+    "question": "In supply chain terminology, what does 'service quality' assess?",
+    "choices": [
+      "The efficiency of product delivery",
+      "The reliability and responsiveness of service delivery",
+      "The cost-effectiveness of operations",
+      "The speed of production processes"
+    ],
+    "correct": "The reliability and responsiveness of service delivery",
+    "explanation": "Service quality is evaluated through dimensions that include reliability, responsiveness, assurance, empathy, and the tangibles associated with the service experience."
+  },
+  {
+    "question": "Which of the following is an example of a qualitative forecasting method?",
+    "choices": [
+      "Time series analysis",
+      "Moving averages",
+      "Market surveys",
+      "Regression analysis"
+    ],
+    "correct": "Market surveys",
+    "explanation": "Market surveys gather opinions and insights from customers or experts, making them qualitative methods that do not rely on historical data."
+  },
+  {
+    "question": "What is a primary characteristic of a 'continuous flow' process?",
+    "choices": [
+      "High variation in product types",
+      "Low volume of standardized products",
+      "An automated process with no variation",
+      "Flexible production for customized orders"
+    ],
+    "correct": "An automated process with no variation",
+    "explanation": "Continuous flow processes produce a high volume of standardized products without interruptions, typically seen in industries like oil refining."
+  },
+  {
+    "question": "In supply chain management, what does the term 'tariffs' refer to?",
+    "choices": [
+      "Discounts offered to bulk buyers",
+      "Fees imposed on imported goods",
+      "Costs associated with transportation",
+      "Regulations affecting product quality"
+    ],
+    "correct": "Fees imposed on imported goods",
+    "explanation": "Tariffs are government-imposed taxes on imports, aimed at protecting domestic industries and generating revenue."
+  },
+  {
+    "question": "Which of the following best describes a 'job shop' production environment?",
+    "choices": [
+      "High volume, standardized production",
+      "Low volume, customized production",
+      "Continuous flow of materials",
+      "No variability in product types"
+    ],
+    "correct": "Low volume, customized production",
+    "explanation": "A job shop is designed for low-volume production of highly customized products, providing flexibility to adapt to specific customer needs."
+  },
+  {
+    "question": "What does the term 'capacity utilization' measure?",
+    "choices": [
+      "The efficiency of supply chain operations",
+      "The percentage of production capacity being used",
+      "The amount of inventory in stock",
+      "The speed of product delivery"
+    ],
+    "correct": "The percentage of production capacity being used",
+    "explanation": "Capacity utilization reflects how effectively a company's production capacity is being employed, indicating operational efficiency."
+  },
+  {
+    "question": "What is a primary benefit of using automation in supply chains?",
+    "choices": [
+      "Increased manual labor requirements",
+      "Improved consistency and efficiency in operations",
+      "Higher production costs",
+      "Decreased speed of production"
+    ],
+    "correct": "Improved consistency and efficiency in operations",
+    "explanation": "Automation enhances operational consistency and efficiency, reducing variability and improving overall production quality."
+  },
+  {
+    "question": "Which forecasting method would be most suitable for a product with a long sales history?",
+    "choices": [
+      "Qualitative methods",
+      "Delphi technique",
+      "Time series analysis",
+      "Test markets"
+    ],
+    "correct": "Time series analysis",
+    "explanation": "Time series analysis leverages historical sales data to identify trends and forecast future demand, making it ideal for established products with a reliable sales history."
+  },
+  {
+    "question": "What does 'cross-docking' aim to achieve in a supply chain?",
+    "choices": [
+      "Delaying shipments until all products are available",
+      "Minimizing storage time by transferring goods directly from inbound to outbound transport",
+      "Consolidating inventory in one central location",
+      "Increasing the number of warehouses in a distribution network"
+    ],
+    "correct": "Minimizing storage time by transferring goods directly from inbound to outbound transport",
+    "explanation": "Cross-docking enhances efficiency by reducing storage times and facilitating quicker product movement through the supply chain."
+  },
+  {
+    "question": "What does 'supply chain sustainability' focus on?",
+    "choices": [
+      "Reducing production costs only",
+      "Balancing financial performance with social and environmental responsibilities",
+      "Enhancing customer satisfaction",
+      "Increasing the speed of production processes"
+    ],
+    "correct": "Balancing financial performance with social and environmental responsibilities",
+    "explanation": "Supply chain sustainability aims to meet present needs without compromising future generations, emphasizing responsible practices across the supply chain."
+  },
+  {
+    "question": "What is a 'bullwhip effect' in supply chain management?",
+    "choices": [
+      "The phenomenon where demand increases due to marketing efforts",
+      "The distortion of demand information as it moves up the supply chain",
+      "The increase in inventory levels across all supply chain members",
+      "The time lag in product delivery"
+    ],
+    "correct": "The distortion of demand information as it moves up the supply chain",
+    "explanation": "The bullwhip effect refers to the increasing variability in demand as one moves up the supply chain, often caused by inadequate communication between supply chain partners."
+  },
+  {
+    "question": "What is the primary benefit of using 'big data analytics' in supply chain management?",
+    "choices": [
+      "Increasing manual labor",
+      "Enhancing decision-making based on insights from large data sets",
+      "Reducing the need for technology",
+      "Simplifying production processes"
+    ],
+    "correct": "Enhancing decision-making based on insights from large data sets",
+    "explanation": "Big data analytics allows companies to analyze vast amounts of data to uncover patterns and trends, leading to better decision-making and improved supply chain performance."
+  },
+  {
+    "question": "Which of the following best defines 'quality function deployment' (QFD)?",
+    "choices": [
+      "A technique for forecasting demand",
+      "A method to enhance product quality",
+      "A process for translating customer requirements into product specifications",
+      "A strategy for reducing production costs"
+    ],
+    "correct": "A process for translating customer requirements into product specifications",
+    "explanation": "QFD is used to convert customer needs and expectations into specific technical requirements, ensuring products meet market demands."
+  },
+  {
+    "question": "In supply chain terms, what is a 'server facility'?",
+    "choices": [
+      "A facility designed for offshore manufacturing",
+      "A location that supplies the local market while meeting local regulations",
+      "A facility focused on product development",
+      "A center for logistics and distribution"
+    ],
+    "correct": "A location that supplies the local market while meeting local regulations",
+    "explanation": "A server facility is established to meet market demands in a specific area while adhering to local regulations and logistical needs."
+  },
+  {
+    "question": "What does 'efficiency' in supply chain management refer to?",
+    "choices": [
+      "The ability to quickly respond to customer orders",
+      "Performing operations at the lowest possible cost",
+      "The quality of customer service provided",
+      "The variety of products offered"
+    ],
+    "correct": "Performing operations at the lowest possible cost",
+    "explanation": "Efficiency in supply chain management focuses on optimizing resources to minimize costs while maintaining operational effectiveness."
+  },
+  {
+    "question": "Which inventory type is characterized by goods that are finished and ready for sale?",
+    "choices": [
+      "Safety stock",
+      "Work-in-progress (WIP)",
+      "Cycle stock",
+      "Finished goods inventory"
+    ],
+    "correct": "Finished goods inventory",
+    "explanation": "Finished goods inventory consists of completed products that are ready to be shipped to customers, representing the final stage of production."
+  },
+  {
+    "question": "In supply chain management, what does 'insourcing' mean?",
+    "choices": [
+      "Outsourcing business functions to external suppliers",
+      "Bringing previously outsourced activities back in-house",
+      "Transferring management responsibilities to suppliers",
+      "Hiring temporary workers for peak demand periods"
+    ],
+    "correct": "Bringing previously outsourced activities back in-house",
+    "explanation": "Insourcing involves returning certain business functions or processes to be managed internally after having previously outsourced them to external vendors."
+  },
+  {
+    "question": "What is the main purpose of 'capacity planning' in supply chains?",
+    "choices": [
+      "To estimate the total costs of inventory",
+      "To forecast customer demand for products",
+      "To determine the production capacity required to meet demand",
+      "To analyze supplier performance"
+    ],
+    "correct": "To determine the production capacity required to meet demand",
+    "explanation": "Capacity planning assesses the resources needed to produce goods or services in alignment with expected demand, ensuring adequate output levels."
+  },
+  {
+    "question": "What does 'aggregate planning' involve in supply chain management?",
+    "choices": [
+      "Short-term scheduling of daily operations",
+      "Developing a comprehensive plan for long-term business goals",
+      "Coordinating production, inventory, and workforce levels to meet fluctuating demand",
+      "Managing supplier relationships"
+    ],
+    "correct": "Coordinating production, inventory, and workforce levels to meet fluctuating demand",
+    "explanation": "Aggregate planning focuses on aligning production and operations with fluctuating demand over a specific timeframe, balancing resources effectively."
+  },
+  {
+    "question": "Which of the following describes 'economic production quantity' (EPQ)?",
+    "choices": [
+      "A model used for minimizing ordering costs",
+      "A method for calculating total production costs",
+      "A strategy for determining optimal production quantities considering production rates",
+      "A technique for forecasting future demand"
+    ],
+    "correct": "A strategy for determining optimal production quantities considering production rates",
+    "explanation": "EPQ helps organizations determine the most cost-effective quantity to produce, accounting for both production rates and holding costs."
+  },
+  {
+    "question": "What is the primary objective of a 'sourcing' strategy?",
+    "choices": [
+      "To maximize inventory levels",
+      "To select suppliers that meet quality and cost criteria",
+      "To reduce production capacity",
+      "To eliminate all supplier relationships"
+    ],
+    "correct": "To select suppliers that meet quality and cost criteria",
+    "explanation": "Sourcing involves identifying and engaging suppliers that can provide the necessary materials or services at acceptable quality and price points."
+  },
+  {
+    "question": "What is meant by 'lead time demand'?",
+    "choices": [
+      "The total time taken to fulfill an order",
+      "The amount of inventory needed during the lead time period",
+      "The duration from order placement to delivery",
+      "The time required for production setup"
+    ],
+    "correct": "The amount of inventory needed during the lead time period",
+    "explanation": "Lead time demand refers to the expected amount of inventory required to meet customer needs during the time it takes to receive new stock."
+  },
+  {
+    "question": "In supply chain management, what does the term 'kanban' refer to?",
+    "choices": [
+      "A method of demand forecasting",
+      "A signaling system to control inventory levels",
+      "A type of supplier contract",
+      "A pricing strategy"
+    ],
+    "correct": "A signaling system to control inventory levels",
+    "explanation": "Kanban is a visual tool used in inventory management to signal the need for more stock, facilitating efficient replenishment processes."
+  },
+  {
+    "question": "What does 'customer order entry' entail?",
+    "choices": [
+      "The process of manufacturing products",
+      "The customer informing the retailer of their purchase intentions",
+      "The logistics involved in delivering products",
+      "The management of supplier contracts"
+    ],
+    "correct": "The customer informing the retailer of their purchase intentions",
+    "explanation": "Customer order entry is the initial step where a customer communicates their purchase request, enabling the retailer to allocate the necessary product."
+  },
+  {
+    "question": "What is a 'fixed position layout' used for?",
+    "choices": [
+      "High volume production of standardized items",
+      "A layout where the product remains stationary during production",
+      "Flexibility in production processes",
+      "Minimizing inventory levels"
+    ],
+    "correct": "A layout where the product remains stationary during production",
+    "explanation": "Fixed position layouts are typically used for large, heavy items or projects, where resources and workers come to the product's location for assembly or construction."
+  },
+  {
+    "question": "Which inventory management strategy aims to minimize excess stock while ensuring product availability?",
+    "choices": [
+      "Just-in-case inventory",
+      "Just-in-time (JIT) inventory",
+      "Safety stock",
+      "Cycle stock"
+    ],
+    "correct": "Just-in-time (JIT) inventory",
+    "explanation": "JIT inventory minimizes holding costs by ensuring that inventory arrives only as it is needed in the production process, reducing excess stock."
+  },
+  {
+    "question": "What is the primary goal of a 'supply chain network design'?",
+    "choices": [
+      "To eliminate all external suppliers",
+      "To maximize total profits while meeting customer demand",
+      "To reduce the number of facilities in the network",
+      "To increase inventory levels"
+    ],
+    "correct": "To maximize total profits while meeting customer demand",
+    "explanation": "Effective supply chain network design seeks to align facility locations, capacities, and roles to enhance profitability while satisfying customer needs."
+  },
+  {
+    "question": "What does 'total logistics cost' encompass?",
+    "choices": [
+      "Only transportation costs",
+      "Costs associated with inventory, transportation, and facility operations",
+      "The cost of raw materials",
+      "Employee salaries in the logistics department"
+    ],
+    "correct": "Costs associated with inventory, transportation, and facility operations",
+    "explanation": "Total logistics cost includes all expenses related to inventory management, transportation, and facility maintenance in the supply chain."
+  },
+  {
+    "question": "Which of the following is a characteristic of a 'make-to-stock' production strategy?",
+    "choices": [
+      "Products are made after customer orders are received",
+      "Finished goods are produced in anticipation of customer demand",
+      "Products are customized for individual customers",
+      "No inventory is held at any point"
+    ],
+    "correct": "Finished goods are produced in anticipation of customer demand",
+    "explanation": "Make-to-stock production involves manufacturing goods ahead of demand, allowing for immediate delivery to customers."
+  },
+  {
+    "question": "What does the 'Pareto principle' state?",
+    "choices": [
+      "All factors are equally important",
+      "80% of outcomes result from 20% of causes",
+      "Demand can never exceed supply",
+      "Costs always outweigh benefits"
+    ],
+    "correct": "80% of outcomes result from 20% of causes",
+    "explanation": "The Pareto principle highlights the significance of focusing on the critical few factors that contribute most to results, often applied in inventory and quality management."
+  },
+  {
+    "question": "In terms of inventory management, what does 'safety stock' help to mitigate?",
+    "choices": [
+      "Risks associated with excess inventory",
+      "Stockouts due to demand variability",
+      "Transportation delays",
+      "Supplier reliability issues"
+    ],
+    "correct": "Stockouts due to demand variability",
+    "explanation": "Safety stock acts as a buffer against uncertainties in demand, ensuring that inventory levels remain sufficient to meet customer needs."
+  },
+  {
+    "question": "Which of the following describes 'repetitive processes'?",
+    "choices": [
+      "Low volume, high variety production",
+      "High volume, standardized production",
+      "One-time custom production",
+      "Continuous production with no variation"
+    ],
+    "correct": "High volume, standardized production",
+    "explanation": "Repetitive processes are designed for the efficient production of high volumes of standardized goods, often used in assembly lines."
+  },
+  {
+    "question": "What is the role of 'warehouse management systems' (WMS)?",
+    "choices": [
+      "To manage customer relationships",
+      "To oversee the inventory management and storage processes",
+      "To design marketing strategies",
+      "To control production schedules"
+    ],
+    "correct": "To oversee the inventory management and storage processes",
+    "explanation": "WMS are software applications that optimize warehouse operations, improving inventory accuracy and efficiency in storing and retrieving products."
+  },
+  {
+    "question": "What does 'vendor relationship management' (VRM) entail?",
+    "choices": [
+      "Managing customer expectations",
+      "Coordinating interactions and negotiations with suppliers",
+      "Tracking inventory levels",
+      "Forecasting sales trends"
+    ],
+    "correct": "Coordinating interactions and negotiations with suppliers",
+    "explanation": "VRM focuses on enhancing collaboration and communication with suppliers to improve supply chain efficiency and performance."
+  },
+  {
+    "question": "What is the primary purpose of a 'demand management' strategy?",
+    "choices": [
+      "To maximize production levels",
+      "To reduce costs associated with inventory",
+      "To balance supply and demand effectively",
+      "To streamline logistics operations"
+    ],
+    "correct": "To balance supply and demand effectively",
+    "explanation": "Demand management aims to align supply capabilities with customer demand, ensuring that production and inventory levels are appropriately adjusted."
+  },
+  {
+    "question": "What does 'environmental sustainability' in supply chains focus on?",
+    "choices": [
+      "Maximizing production efficiency",
+      "Minimizing costs while maximizing profit",
+      "Reducing negative impacts on the environment",
+      "Increasing product variety"
+    ],
+    "correct": "Reducing negative impacts on the environment",
+    "explanation": "Environmental sustainability emphasizes practices that minimize the ecological footprint of supply chain operations, promoting resource conservation and environmental responsibility."
+  },
+  {
+    "question": "What is 'collaborative planning, forecasting, and replenishment' (CPFR)?",
+    "choices": [
+      "A strategy for maximizing inventory levels",
+      "A process where supply chain partners share forecasts and plans",
+      "A method for negotiating supplier contracts",
+      "A tool for monitoring production efficiency"
+    ],
+    "correct": "A process where supply chain partners share forecasts and plans",
+    "explanation": "CPFR involves collaboration among supply chain partners to enhance forecasting accuracy and improve inventory management."
+  },
+  {
+    "question": "What does 'time series analysis' rely on for forecasting?",
+    "choices": [
+      "Expert opinions",
+      "Historical data trends",
+      "Random guesses",
+      "Customer surveys"
+    ],
+    "correct": "Historical data trends",
+    "explanation": "Time series analysis utilizes past data patterns to predict future demand, making it effective for products with consistent sales histories."
+  },
+  {
+    "question": "In supply chain management, what does 'fixed costs' refer to?",
+    "choices": [
+      "Costs that vary with production levels",
+      "Costs that remain constant regardless of output",
+      "Costs associated with inventory carrying",
+      "Costs incurred only during peak seasons"
+    ],
+    "correct": "Costs that remain constant regardless of output",
+    "explanation": "Fixed costs do not change with production levels and must be paid regardless of how much a company produces or sells."
+  },
+  {
+    "question": "What does the term 'stockout' signify in inventory management?",
+    "choices": [
+      "The availability of excess inventory",
+      "The situation where inventory levels are zero and cannot meet demand",
+      "A method for replenishing inventory",
+      "A strategy for managing supplier relationships"
+    ],
+    "correct": "The situation where inventory levels are zero and cannot meet demand",
+    "explanation": "A stockout occurs when a product is out of stock, preventing fulfillment of customer orders and potentially leading to lost sales."
+  },
+  {
+    "question": "Which strategy involves producing goods only when they are ordered?",
+    "choices": [
+      "Make-to-stock",
+      "Assemble-to-order",
+      "Make-to-order",
+      "Engineer-to-order"
+    ],
+    "correct": "Make-to-order",
+    "explanation": "Make-to-order production focuses on manufacturing products based on specific customer orders, thereby reducing excess inventory and enabling customization."
+  },
+  {
+    "question": "What does 'economic order quantity' (EOQ) help determine?",
+    "choices": [
+      "The best suppliers to engage",
+      "The optimal order quantity that minimizes total inventory costs",
+      "The maximum capacity of a facility",
+      "The ideal price for products"
+    ],
+    "correct": "The optimal order quantity that minimizes total inventory costs",
+    "explanation": "EOQ is a formula that helps businesses determine the most cost-effective quantity to order, balancing ordering and holding costs."
+  },
+  {
+    "question": "What is the primary characteristic of a 'job shop' production environment?",
+    "choices": [
+      "High volume, standardized production",
+      "Low volume, customized production",
+      "Continuous flow of materials",
+      "No variability in product types"
+    ],
+    "correct": "Low volume, customized production",
+    "explanation": "A job shop is designed for low-volume production of highly customized products, providing flexibility to adapt to specific customer needs."
+  },
+  {
+    "question": "Which of the following is an example of 'lean manufacturing'?",
+    "choices": [
+      "Increasing inventory levels",
+      "Reducing waste while maintaining product quality",
+      "Maximizing product variety",
+      "Increasing the number of production shifts"
+    ],
+    "correct": "Reducing waste while maintaining product quality",
+    "explanation": "Lean manufacturing focuses on streamlining processes to eliminate waste without compromising quality, thus enhancing efficiency."
+  },
+  {
+    "question": "In terms of inventory management, what is 'cycle stock'?",
+    "choices": [
+      "The inventory held for safety reasons",
+      "Inventory that is in transit",
+      "The stock used to meet regular demand",
+      "Finished goods ready for sale"
+    ],
+    "correct": "The stock used to meet regular demand",
+    "explanation": "Cycle stock represents inventory held to satisfy normal demand levels, replenished regularly based on sales forecasts."
+  },
+  {
+    "question": "What does 'inventory turnover' measure?",
+    "choices": [
+      "The speed at which products are produced",
+      "The rate at which inventory is sold and replaced",
+      "The efficiency of supply chain operations",
+      "The time products spend in storage"
+    ],
+    "correct": "The rate at which inventory is sold and replaced",
+    "explanation": "Inventory turnover reflects how efficiently a company manages its stock, calculated by dividing the cost of goods sold by average inventory."
+  },
+  {
+    "question": "Which inventory type is characterized by goods that are finished and ready for sale?",
+    "choices": [
+      "Safety stock",
+      "Work-in-progress (WIP)",
+      "Cycle stock",
+      "Finished goods inventory"
+    ],
+    "correct": "Finished goods inventory",
+    "explanation": "Finished goods inventory consists of completed products that are ready to be shipped to customers, representing the final stage of production."
+  },
+  {
+    "question": "What does 'vendor managed inventory' (VMI) entail?",
+    "choices": [
+      "The retailer manages its own inventory levels",
+      "The vendor monitors and replenishes inventory at the retailer’s site",
+      "Suppliers control the entire production process",
+      "Customers manage their own inventory needs"
+    ],
+    "correct": "The vendor monitors and replenishes inventory at the retailer’s site",
+    "explanation": "VMI allows suppliers to manage their products' inventory levels at the customer's location, enhancing efficiency and reducing stockouts."
+  },
+  {
+    "question": "What is the primary benefit of using 'big data analytics' in supply chain management?",
+    "choices": [
+      "Increasing manual labor",
+      "Enhancing decision-making based on insights from large data sets",
+      "Reducing the need for technology",
+      "Simplifying production processes"
+    ],
+    "correct": "Enhancing decision-making based on insights from large data sets",
+    "explanation": "Big data analytics allows companies to analyze vast amounts of data to uncover patterns and trends, leading to better decision-making and improved supply chain performance."
+  },
+  {
+    "question": "Which of the following best defines 'quality function deployment' (QFD)?",
+    "choices": [
+      "A technique for forecasting demand",
+      "A method to enhance product quality",
+      "A process for translating customer requirements into product specifications",
+      "A strategy for reducing production costs"
+    ],
+    "correct": "A process for translating customer requirements into product specifications",
+    "explanation": "QFD is used to convert customer needs and expectations into specific technical requirements, ensuring products meet market demands."
+  },
+  {
+    "question": "What does the term 'capacity utilization' measure?",
+    "choices": [
+      "The efficiency of supply chain operations",
+      "The percentage of production capacity being used",
+      "The amount of inventory in stock",
+      "The speed of product delivery"
+    ],
+    "correct": "The percentage of production capacity being used",
+    "explanation": "Capacity utilization reflects how effectively a company's production capacity is being employed, indicating operational efficiency."
+  },
+  {
+    "question": "What does the term 'stockout' signify in inventory management?",
+    "choices": [
+      "The availability of excess inventory",
+      "The situation where inventory levels are zero and cannot meet demand",
+      "A method for replenishing inventory",
+      "A strategy for managing supplier relationships"
+    ],
+    "correct": "The situation where inventory levels are zero and cannot meet demand",
+    "explanation": "A stockout occurs when a product is out of stock, preventing fulfillment of customer orders and potentially leading to lost sales."
+  },
+  {
+    "question": "What is 'reverse logistics'?",
+    "choices": [
+      "Managing the forward flow of goods",
+      "The process of returning products to manufacturers",
+      "Increasing inventory levels for future demand",
+      "Reducing production times"
+    ],
+    "correct": "The process of returning products to manufacturers",
+    "explanation": "Reverse logistics involves managing the return of goods from customers back to manufacturers for various purposes, including recycling and repairs."
+  },
+  {
+    "question": "What is a primary characteristic of a 'continuous flow' process?",
+    "choices": [
+      "High variation in product types",
+      "Low volume of standardized products",
+      "An automated process with no variation",
+      "Flexible production for customized orders"
+    ],
+    "correct": "An automated process with no variation",
+    "explanation": "Continuous flow processes produce a high volume of standardized products without interruptions, typically seen in industries like oil refining."
+  },
+  {
+    "question": "What does 'environmental sustainability' in supply chains focus on?",
+    "choices": [
+      "Maximizing production efficiency",
+      "Minimizing costs while maximizing profit",
+      "Reducing negative impacts on the environment",
+      "Increasing product variety"
+    ],
+    "correct": "Reducing negative impacts on the environment",
+    "explanation": "Environmental sustainability emphasizes practices that minimize the ecological footprint of supply chain operations, promoting resource conservation and environmental responsibility."
+  },
+  {
+    "question": "Which of the following describes a 'pull system' in supply chain management?",
+    "choices": [
+      "Producing goods based on forecasted demand",
+      "Manufacturing based on actual customer orders",
+      "Maintaining high levels of finished goods inventory",
+      "Setting production schedules in advance"
+    ],
+    "correct": "Manufacturing based on actual customer orders",
+    "explanation": "A pull system produces goods in response to actual demand, minimizing excess inventory and enhancing responsiveness."
+  },
+  {
+    "question": "In supply chain management, what does 'capacity planning' focus on?",
+    "choices": [
+      "Forecasting customer demand",
+      "Managing supplier negotiations",
+      "Assessing production capacity to meet demand",
+      "Evaluating marketing strategies"
+    ],
+    "correct": "Assessing production capacity to meet demand",
+    "explanation": "Capacity planning involves evaluating the production capabilities needed to align with expected customer demand effectively."
+  },
+  {
+    "question": "What is the primary goal of a 'supply chain network design'?",
+    "choices": [
+      "To eliminate all external suppliers",
+      "To maximize total profits while meeting customer demand",
+      "To reduce the number of facilities in the network",
+      "To increase inventory levels"
+    ],
+    "correct": "To maximize total profits while meeting customer demand",
+    "explanation": "Effective supply chain network design seeks to align facility locations, capacities, and roles to enhance profitability while satisfying customer needs."
+  },
+  {
+    "question": "What is a primary benefit of using 'automation' in supply chains?",
+    "choices": [
+      "Increased manual labor requirements",
+      "Improved consistency and efficiency in operations",
+      "Higher production costs",
+      "Decreased speed of production"
+    ],
+    "correct": "Improved consistency and efficiency in operations",
+    "explanation": "Automation enhances operational consistency and efficiency, reducing variability and improving overall production quality."
+  },
+  {
+    "question": "What does the term 'vendor managed inventory' (VMI) entail?",
+    "choices": [
+      "The retailer manages its own inventory levels",
+      "The vendor monitors and replenishes inventory at the retailer’s site",
+      "Suppliers control the entire production process",
+      "Customers manage their own inventory needs"
+    ],
+    "correct": "The vendor monitors and replenishes inventory at the retailer’s site",
+    "explanation": "VMI allows suppliers to manage their products' inventory levels at the customer's location, enhancing efficiency and reducing stockouts."
+  }
+]
